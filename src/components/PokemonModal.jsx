@@ -184,7 +184,7 @@ export default function PokemonModal({ pokemon, onClose }) {
           <div className="moves-grid">
             {pokemon.moves.slice(0, 20).map((moveInfo) => (
               <button
-                key={moveInfo.move.name}
+                key={moveInfo.move.name}        
                 className="move-badge"
                 onClick={() => handleAttack(moveInfo.move.name)}
                 style={{
