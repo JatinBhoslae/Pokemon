@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
 import PokemonCard from "../components/PokemonCard";
+import PokemonThumbnail from "../components/PokemonThumbnail";
 import PokemonModal from "../components/PokemonModal";
+import Sidebar from "../components/Sidebar";
 
 export default function Pokemon() {
   const [pokemonList, setPokemonList] = useState([]);
@@ -9,11 +11,17 @@ export default function Pokemon() {
   const [error, setError] = useState(null);
   const [search, setSearch] = useState("");
   const [selectedPokemon, setSelectedPokemon] = useState(null);
-
-  const API = "https://pokeapi.co/api/v2/pokemon?limit=1301";
+  const [selectedGen, setSelectedGen] = useState({
+    id: 0,
+    name: "All",
+    limit: 1301,
+    offset: 0,
+  });
 
   const fetchApi = async () => {
+    setLoading(true);
     try {
+      const API = `https://pokeapi.co/api/v2/pokemon?limit=${selectedGen.limit}&offset=${selectedGen.offset}`;
       const res = await fetch(API);
       const data = await res.json();
 
@@ -35,27 +43,11 @@ export default function Pokemon() {
 
   useEffect(() => {
     fetchApi();
-  }, []);
+  }, [selectedGen]);
 
   const SearchData = pokemonList.filter((curPokemon) =>
     curPokemon.name.toLowerCase().includes(search.toLowerCase())
   );
-
-  if (loading) {
-    return (
-      <div className="loading-container">
-        <h2 className="loading-msg">Loading Pokédex...</h2>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="error-container">
-        <h2 className="error-msg">{error.message}</h2>
-      </div>
-    );
-  }
 
   return (
     <section className="container">
@@ -63,24 +55,41 @@ export default function Pokemon() {
         <h1>Pokédex</h1>
       </header>
 
-      <div className="pokemon-search">
-        <input
-          type="text"
-          placeholder="Search Pokemon"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+      <div className="main-layout">
+        <Sidebar selectedGenId={selectedGen.id} onSelectGen={setSelectedGen} />
+
+        <div className="content-area">
+          <div className="pokemon-search">
+            <input
+              type="text"
+              placeholder="Search Pokemon"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+          </div>
+
+          {loading ? (
+            <div className="loading-container">
+              <h2 className="loading-msg">Loading {selectedGen.name}...</h2>
+            </div>
+          ) : error ? (
+            <div className="error-container">
+              <h2 className="error-msg">{error.message}</h2>
+            </div>
+          ) : (
+            <ul className="cards">
+              {SearchData.map((pokemon) => (
+                <PokemonCard
+                  key={pokemon.id}
+                  pokemon={pokemon}
+                  onSelect={setSelectedPokemon}
+                />
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
 
-      <ul className="cards">
-        {SearchData.map((pokemon) => (
-          <PokemonCard
-            key={pokemon.id}
-            pokemon={pokemon}
-            onSelect={setSelectedPokemon}
-          />
-        ))}
-      </ul>
       {selectedPokemon && (
         <PokemonModal
           pokemon={selectedPokemon}
