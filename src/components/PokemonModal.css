@@ -1,0 +1,748 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 0;
+  border-radius: 2.4rem;
+  max-width: 90rem;
+  width: 95%;
+  height: 85vh;
+  max-height: 80rem;
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  animation: slideIn 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1.6rem;
+  right: 2.4rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 3.2rem;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s;
+  z-index: 20;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn:hover {
+  color: #000;
+  background: #fff;
+}
+
+.modal-header {
+  text-align: center;
+  padding: 2.4rem;
+  background: #f8f9fa;
+  flex-shrink: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.modal-body {
+  padding: 2.4rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* Desktop Split Layout */
+@media (min-width: 768px) {
+  .modal-content {
+    flex-direction: row;
+    height: 70rem;
+  }
+
+  .modal-header {
+    width: 40%;
+    border-bottom: none;
+    border-right: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .modal-body {
+    width: 60%;
+    height: 100%;
+  }
+
+  .image-container {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+/* Image Container for positioning effects */
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+  z-index: 2;
+}
+
+/* Attack Effects */
+.attack-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Common Particle */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+/* ================= GRASS: Solar Beam (2s) ================= */
+.effect-grass {
+  width: 100%;
+  height: 100%;
+}
+
+.effect-grass::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(circle, #fff, #78c850);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  box-shadow: 0 0 40px #78c850;
+  animation: solarCharge 0.8s ease-in forwards,
+    solarFire 1s 0.8s linear forwards, solarFade 0.2s 1.8s ease-out forwards;
+}
+
+/* Particles for gathering energy */
+.effect-grass .particle {
+  background: #a7db8d;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  animation: gatherEnergy 0.8s ease-in forwards;
+}
+
+.effect-grass .p1 {
+  transform: translate(-100px, -100px);
+  animation-delay: 0.1s;
+}
+.effect-grass .p2 {
+  transform: translate(100px, -100px);
+  animation-delay: 0.2s;
+}
+.effect-grass .p3 {
+  transform: translate(-100px, 100px);
+  animation-delay: 0.3s;
+}
+.effect-grass .p4 {
+  transform: translate(100px, 100px);
+  animation-delay: 0.4s;
+}
+
+@keyframes gatherEnergy {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes solarCharge {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 1;
+    filter: brightness(2);
+  }
+}
+
+@keyframes solarFire {
+  0% {
+    width: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  10% {
+    width: 600px;
+    height: 100px;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+  }
+  90% {
+    width: 600px;
+    height: 100px;
+    left: 100%;
+    opacity: 1;
+  }
+  100% {
+    width: 600px;
+    opacity: 0;
+  }
+}
+
+@keyframes solarFade {
+  to {
+    opacity: 0;
+  }
+}
+
+/* ================= FIRE: Flamethrower (2s) ================= */
+.effect-fire {
+  width: 100%;
+  height: 100%;
+}
+
+/* Main Fire Core */
+.effect-fire::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background: radial-gradient(circle, #fff, #f08030, #ff0000);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  filter: blur(5px);
+  animation: fireCharge 0.5s ease-in forwards,
+    fireStream 1.2s 0.5s ease-out forwards,
+    fireDissipate 0.3s 1.7s linear forwards;
+}
+
+.effect-fire .particle {
+  background: #f08030;
+  width: 15px;
+  height: 15px;
+  filter: blur(2px);
+  animation: fireParticles 1s 0.5s linear infinite;
+}
+
+@keyframes fireCharge {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 1;
+    box-shadow: 0 0 50px #ff0000;
+  }
+}
+
+@keyframes fireStream {
+  0% {
+    transform: translate(-50%, -50%) scale(1.2);
+    left: 50%;
+  }
+  20% {
+    transform: translate(-50%, -50%) scale(3) translateX(50px);
+    width: 100px;
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(5) translateX(100px);
+    opacity: 0.8;
+  }
+}
+
+@keyframes fireDissipate {
+  to {
+    opacity: 0;
+    transform: scale(6);
+  }
+}
+
+@keyframes fireParticles {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100px, -50px) scale(0);
+    opacity: 0;
+  }
+}
+
+/* ================= WATER: Hydro Pump (2s) ================= */
+.effect-water {
+  width: 100%;
+  height: 100%;
+}
+
+.effect-water::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background: conic-gradient(from 0deg, #6890f0, #fff, #6890f0);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: waterGather 0.4s ease-in forwards,
+    waterBlast 1.3s 0.4s linear forwards, waterFade 0.3s 1.7s ease-out forwards;
+}
+
+.effect-water .particle {
+  background: #a0c0f0;
+  width: 8px;
+  height: 8px;
+  animation: waterSplash 1.3s 0.4s linear infinite;
+}
+
+@keyframes waterGather {
+  0% {
+    transform: translate(-50%, -50%) scale(0) rotate(0deg);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1) rotate(720deg);
+    opacity: 1;
+  }
+}
+
+@keyframes waterBlast {
+  0% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    width: 60px;
+  }
+  10% {
+    width: 400px;
+    left: 80%;
+    border-radius: 20px;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(1440deg);
+    width: 500px;
+    left: 100%;
+    opacity: 0.8;
+  }
+}
+
+@keyframes waterSplash {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(60px, 40px);
+    opacity: 0;
+  }
+}
+
+@keyframes waterFade {
+  to {
+    opacity: 0;
+  }
+}
+
+/* ================= ELECTRIC: Thunderbolt (2s) ================= */
+.effect-electric {
+  width: 100%;
+  height: 100%;
+}
+
+.effect-electric::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  box-shadow: 0 0 20px #f8d030, 0 0 40px #f8d030;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: electricCharge 0.5s linear forwards,
+    electricStrike 1.2s 0.5s steps(5) infinite,
+    electricEnd 0.3s 1.7s ease-out forwards;
+}
+
+.effect-electric .particle {
+  width: 2px;
+  height: 20px;
+  background: #f8d030;
+  transform: rotate(45deg);
+  animation: sparks 1s 0.5s linear infinite;
+}
+
+@keyframes electricCharge {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+  }
+}
+
+@keyframes electricStrike {
+  0% {
+    transform: translate(-52%, -48%) scale(3);
+    opacity: 1;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+    background: #f8d030;
+    width: 200px;
+    height: 200px;
+  }
+  25% {
+    transform: translate(-48%, -52%) scale(3.2);
+    opacity: 0.8;
+    background: #fff;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(3) rotate(10deg);
+    background: #f8d030;
+  }
+  75% {
+    transform: translate(-51%, -49%) scale(2.8) rotate(-10deg);
+    background: #ffff00;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(3);
+  }
+}
+
+@keyframes electricEnd {
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes sparks {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(45deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(50px, -50px) rotate(90deg);
+  }
+}
+
+/* ================= NORMAL: Impact (2s) ================= */
+.effect-normal {
+  width: 100%;
+  height: 100%;
+}
+
+.effect-normal::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: normalCharge 0.5s ease-in forwards,
+    normalHit 0.5s 0.5s ease-out forwards, normalShock 1s 1s linear infinite;
+}
+
+@keyframes normalCharge {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    border-width: 2px;
+  }
+}
+
+@keyframes normalHit {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    border-color: #fff;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(3);
+    border-color: #a8a878;
+    border-width: 10px;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(4);
+    opacity: 0;
+  }
+}
+
+@keyframes normalShock {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.3;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.4);
+    opacity: 0;
+  }
+}
+
+.modal-title {
+  font-size: 3.6rem;
+  text-transform: capitalize;
+  margin-top: 1.6rem;
+  color: #2c3e50;
+}
+
+.modal-types {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.type-badge {
+  padding: 0.6rem 1.6rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  background: #3498db; /* Fallback */
+}
+
+/* Type colors */
+.type-grass {
+  background: #78c850;
+}
+.type-fire {
+  background: #f08030;
+}
+.type-water {
+  background: #6890f0;
+}
+.type-bug {
+  background: #a8b820;
+}
+.type-normal {
+  background: #a8a878;
+}
+.type-poison {
+  background: #a040a0;
+}
+.type-electric {
+  background: #f8d030;
+}
+.type-ground {
+  background: #e0c068;
+}
+.type-fairy {
+  background: #ee99ac;
+}
+.type-fighting {
+  background: #c03028;
+}
+.type-psychic {
+  background: #f85888;
+}
+.type-rock {
+  background: #b8a038;
+}
+.type-ghost {
+  background: #705898;
+}
+.type-ice {
+  background: #98d8d8;
+}
+.type-dragon {
+  background: #7038f8;
+}
+
+.modal-body h3 {
+  font-size: 2rem;
+  margin: 2.4rem 0 1rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.description-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.stat-name {
+  width: 12rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #666;
+}
+
+.stat-bar-container {
+  flex: 1;
+  height: 1rem;
+  background: #eee;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.stat-bar {
+  height: 100%;
+  background: #4caf50;
+  border-radius: 0.5rem;
+  transition: width 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.moves-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.move-badge {
+  background: #f1f2f6;
+  border: 1px solid #dfe4ea;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  color: #2f3542;
+  text-transform: capitalize;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.move-badge:hover {
+  background: #dfe4ea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.move-badge:active {
+  transform: translateY(0);
+}
+
+.modal-image.attacking {
+  animation: attackAnimation 0.5s ease-in-out;
+}
+
+@keyframes attackAnimation {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-20px) scale(0.9) rotate(-5deg);
+  }
+  50% {
+    transform: translateX(40px) scale(1.1) rotate(5deg);
+  }
+  75% {
+    transform: translateX(-10px) scale(0.95) rotate(-2deg);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
