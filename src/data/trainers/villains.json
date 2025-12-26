@@ -1,0 +1,344 @@
+[
+  {
+    "id": 189,
+    "name": "Giovanni",
+    "region": "kanto",
+    "role": "Villain",
+    "trainerClass": "Team Rocket Boss",
+    "title": "Team Rocket Boss",
+    "description": "The leader of Team Rocket who specializes in Ground-type Pokémon. He is a skilled businessman and Pokémon trainer who aims to control the Pokémon world.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0c/Giovanni_AG_anime.png/250px-Giovanni_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "gymBadges": ["Earth Badge"],
+    "championships": [],
+    "achievements": ["Team Rocket Boss", "Ground-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "nickname": "Dugtrio",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Rocket Boss",
+        "description": "Led Team Rocket organization"
+      }
+    ],
+    "notableBattles": ["Defeated by Red", "Controlled Team Rocket"]
+  },
+  {
+    "id": 190,
+    "name": "Archer",
+    "region": "kanto",
+    "role": "Villain",
+    "trainerClass": "Team Rocket Admin",
+    "title": "Team Rocket Admin",
+    "description": "A high-ranking member of Team Rocket who uses Dark-type Pokémon. He is known for his loyalty to Giovanni and his strategic mind.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7a/Archer_AG_anime.png/250px-Archer_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Rocket Admin", "Dark-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 452,
+        "name": "Drapion",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+        "nickname": "Toxicroak",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Rocket Admin",
+        "description": "Joined Team Rocket organization"
+      }
+    ],
+    "notableBattles": ["Schemed for Team Rocket", "Used Dark-types in battles"]
+  },
+  {
+    "id": 191,
+    "name": "Cyrus",
+    "region": "sinnoh",
+    "role": "Villain",
+    "trainerClass": "Team Galactic Boss",
+    "title": "Team Galactic Boss",
+    "description": "The leader of Team Galactic who aims to create a new world using the power of Dialga and Palkia. He is a calm and calculating villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3c/Cyrus_DP_anime.png/250px-Cyrus_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Galactic Boss", "World Creator"],
+    "signaturePokemon": [
+      {
+        "id": 483,
+        "name": "Dialga",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+        "nickname": "Dialga",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Galactic Boss",
+        "description": "Started Team Galactic organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Dialga",
+      "Attempted to create new world",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Ghetsis",
+    "region": "unova",
+    "role": "Villain",
+    "trainerClass": "Team Plasma Leader",
+    "title": "Team Plasma Leader",
+    "description": "The leader of Team Plasma who aims to separate Pokémon from humans. He is a cunning and manipulative villain with a secret agenda.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5a/Ghetsis_BW_anime.png/250px-Ghetsis_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Plasma Leader", "Pokémon Liberation Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 644,
+        "name": "Zekrom",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
+        "nickname": "Zekrom",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Plasma Leader",
+        "description": "Started Team Plasma organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Zekrom",
+      "Schemed against humans and Pokémon",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Lysandre",
+    "region": "kalos",
+    "role": "Villain",
+    "trainerClass": "Team Flare Leader",
+    "title": "Team Flare Leader",
+    "description": "The leader of Team Flare who aims to create a beautiful world by destroying the current one. He is a scientist with a tragic past.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2e/Lysandre_XY_anime.png/250px-Lysandre_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Flare Leader", "Beauty Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 716,
+        "name": "Xerneas",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+        "nickname": "Xerneas",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Flare Leader",
+        "description": "Started Team Flare organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Xerneas",
+      "Sought to destroy world",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Guzma",
+    "region": "alola",
+    "role": "Villain",
+    "trainerClass": "Team Skull Boss",
+    "title": "Team Skull Boss",
+    "description": "The leader of Team Skull who aims to create a world where only strong people survive. He is a strong and prideful villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/87/Guzma_SM_anime.png/250px-Guzma_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Skull Boss", "Strong Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 752,
+        "name": "Araquanid",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
+        "nickname": "Araquanid",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Skull Boss",
+        "description": "Started Team Skull organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Team Skull",
+      "Sought to create strong world",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Rose",
+    "region": "galar",
+    "role": "Villain",
+    "trainerClass": "Team Yell Boss",
+    "title": "Team Yell Boss",
+    "description": "The leader of Team Yell who aims to create chaos and excitement in the Galar region. She is energetic and chaotic.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3b/Rose_SWSH_anime.png/250px-Rose_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Yell Boss", "Chaos Creator"],
+    "signaturePokemon": [
+      {
+        "id": 826,
+        "name": "Thievul",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+        "nickname": "Thievul",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Yell Boss",
+        "description": "Started Team Yell organization"
+      }
+    ],
+    "notableBattles": [
+      "Caused chaos in Galar",
+      "Schemed against heroes",
+      "Defeated by trainers"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Clavell",
+    "region": "paldea",
+    "role": "Villain",
+    "trainerClass": "Team Star Leader",
+    "title": "Team Star Leader",
+    "description": "The leader of Team Star who aims to create chaos and excitement in the Paldea region. He is energetic and chaotic.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9a/Clavell_SV_anime.png/250px-Clavell_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Star Leader", "Chaos Creator"],
+    "signaturePokemon": [
+      {
+        "id": 906,
+        "name": "Sprigatito",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+        "nickname": "Meowscarada",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Star Leader",
+        "description": "Started Team Star organization"
+      }
+    ],
+    "notableBattles": [
+      "Caused chaos in Paldea",
+      "Schemed against heroes",
+      "Defeated by trainers"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Maxie",
+    "region": "hoenn",
+    "role": "Villain",
+    "trainerClass": "Team Magma Leader",
+    "title": "Team Magma Leader",
+    "description": "The leader of Team Magma who aims to expand the landmass of the world using the power of Groudon. He is a passionate and determined villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4e/Maxie_RS_anime.png/250px-Maxie_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Magma Leader", "Land Expansion Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 383,
+        "name": "Groudon",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
+        "nickname": "Groudon",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Magma Leader",
+        "description": "Started Team Magma organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Groudon",
+      "Expanded landmass",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Archie",
+    "region": "hoenn",
+    "role": "Villain",
+    "trainerClass": "Team Aqua Leader",
+    "title": "Team Aqua Leader",
+    "description": "The leader of Team Aqua who aims to expand the oceans of the world using the power of Kyogre. He is a calm and calculating villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/17/Archie_RS_anime.png/250px-Archie_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Aqua Leader", "Ocean Expansion Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 382,
+        "name": "Kyogre",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+        "nickname": "Kyogre",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Aqua Leader",
+        "description": "Started Team Aqua organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Kyogre",
+      "Expanded oceans",
+      "Defeated by heroes"
+    ]
+  }
+]

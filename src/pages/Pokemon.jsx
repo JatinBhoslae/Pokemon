@@ -4,6 +4,7 @@ import PokemonCard from "../components/PokemonCard";
 import PokemonThumbnail from "../components/PokemonThumbnail";
 import PokemonModal from "../components/PokemonModal";
 import Sidebar from "../components/Sidebar";
+import SearchBar from "../components/SearchBar";
 
 export default function Pokemon() {
   const [pokemonList, setPokemonList] = useState([]);
@@ -52,40 +53,43 @@ export default function Pokemon() {
   return (
     <section className="container">
       <header>
-        <h1>Pokédex</h1>
+        <h1>Pokémon</h1>
       </header>
-
       <div className="main-layout">
-        <Sidebar selectedGenId={selectedGen.id} onSelectGen={setSelectedGen} />
-
+        <Sidebar 
+          selectedGenId={selectedGen.id} 
+          onSelectGen={setSelectedGen} 
+        />
         <div className="content-area">
-          <div className="pokemon-search">
-            <input
-              type="text"
-              placeholder="Search Pokemon"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-            />
-          </div>
-
           {loading ? (
-            <div className="loading-container">
-              <h2 className="loading-msg">Loading {selectedGen.name}...</h2>
-            </div>
+            <div className="loading">Loading {selectedGen.name}...</div>
           ) : error ? (
-            <div className="error-container">
-              <h2 className="error-msg">{error.message}</h2>
-            </div>
+            <div className="error-msg">{error.message}</div>
           ) : (
-            <ul className="cards">
-              {SearchData.map((pokemon) => (
-                <PokemonCard
-                  key={pokemon.id}
-                  pokemon={pokemon}
-                  onSelect={setSelectedPokemon}
+            <>
+              <div className="pokemon-search">
+                <input
+                  type="text"
+                  placeholder="Search Pokémon"
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
                 />
-              ))}
-            </ul>
+              </div>
+              <ul className="cards">
+                {SearchData.map((pokemon) => (
+                  <PokemonCard
+                    key={pokemon.id}
+                    pokemon={pokemon}
+                    onSelect={setSelectedPokemon}
+                  />
+                ))}
+              </ul>
+              {SearchData.length === 0 && !loading && (
+                <div className="no-results">
+                  {search ? "No Pokémon found matching your search." : "No Pokémon found for the selected generation."}
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>

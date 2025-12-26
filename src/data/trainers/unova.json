@@ -1,0 +1,734 @@
+[
+  {
+    "id": 69,
+    "name": "Cheren",
+    "region": "unova",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Aspertia City who dreams of becoming a Pokémon Master. He travels with his starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3f/Cheren_BW_anime.png/250px-Cheren_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+    "gymBadges": [
+      "Trio Badge",
+      "Basic Badge",
+      "Insect Badge",
+      "Bolt Badge",
+      "Quake Badge",
+      "Jet Badge",
+      "Freeze Badge",
+      "Legend Badge"
+    ],
+    "championships": ["Unova League Champion"],
+    "achievements": ["Pokémon League Champion", "Master of Unova"],
+    "signaturePokemon": [
+      {
+        "id": 495,
+        "name": "Snivy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+        "nickname": "Serperior",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Aspertia City"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Unova region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Elite Four Aspirant",
+        "description": "Challenged the Elite Four and Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Plasma",
+      "Won Unova League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Bianca",
+    "region": "unova",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Aspertia City who travels with her friends to catch Pokémon and win battles. She is cheerful and supportive.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Bianca_BW_anime.png/250px-Bianca_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
+    "gymBadges": [
+      "Trio Badge",
+      "Basic Badge",
+      "Insect Badge",
+      "Bolt Badge",
+      "Quake Badge",
+      "Jet Badge",
+      "Freeze Badge",
+      "Legend Badge"
+    ],
+    "championships": [],
+    "achievements": ["Supportive Friend", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 498,
+        "name": "Tepig",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
+        "nickname": "Emboar",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Aspertia City"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Unova region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Traveled with friends",
+      "Defeated Gym Leaders",
+      "Supported others"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "N",
+    "region": "unova",
+    "role": "Rival",
+    "trainerClass": "Pokémon Researcher",
+    "title": "Pokémon Researcher",
+    "description": "A mysterious Pokémon Researcher who believes Pokémon should be freed from trainers. He has a deep connection with Pokémon and rides a legendary Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4c/N_BW_anime.png/250px-N_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Pokémon Researcher", "Legend Rider"],
+    "signaturePokemon": [
+      {
+        "id": 649,
+        "name": "Genesect",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
+        "nickname": "Zekrom",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Researcher",
+        "description": "Started researching Pokémon relationships"
+      }
+    ],
+    "notableBattles": [
+      "Rode legendary Pokémon",
+      "Challenged trainer beliefs",
+      "Connected with Pokémon"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Rodney",
+    "region": "unova",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Striaton City Gym Leader",
+    "description": "The Gym Leader of Striaton City who specializes in Normal-type Pokémon. He is also a chef who runs a restaurant with his brothers.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/74/Rodney_BW_anime.png/250px-Rodney_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
+    "gymBadges": ["Trio Badge"],
+    "championships": [],
+    "achievements": ["Normal-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 514,
+        "name": "Pansage",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
+        "nickname": "Simisage",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Striaton City Gym Leader",
+        "description": "Took over the Normal-type Gym with brothers"
+      }
+    ],
+    "notableBattles": [
+      "Defended Striaton Gym",
+      "Battled against Normal-type specialists"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Clay",
+    "region": "unova",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Driftveil City Gym Leader",
+    "description": "The Gym Leader of Driftveil City who specializes in Ground-type Pokémon. He is also a black belt who uses martial arts.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/14/Clay_BW_anime.png/250px-Clay_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
+    "gymBadges": ["Basic Badge"],
+    "championships": [],
+    "achievements": ["Ground-type Specialist", "Martial Artist"],
+    "signaturePokemon": [
+      {
+        "id": 551,
+        "name": "Sandile",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
+        "nickname": "Excadrill",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Driftveil City Gym Leader",
+        "description": "Took over the Ground-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Driftveil Gym",
+      "Battled against Ground-type specialists"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Brycen",
+    "region": "unova",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Icirrus City Gym Leader",
+    "description": "The Gym Leader of Icirrus City who specializes in Ice-type Pokémon. He is also an actor who performs in the local theater.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4f/Brycen_BW_anime.png/250px-Brycen_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
+    "gymBadges": ["Insect Badge"],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Actor"],
+    "signaturePokemon": [
+      {
+        "id": 624,
+        "name": "Pawniard",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
+        "nickname": "Bisharp",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Icirrus City Gym Leader",
+        "description": "Took over the Ice-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Icirrus Gym",
+      "Battled against Ice-type specialists"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Skyla",
+    "region": "unova",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Mistralton City Gym Leader",
+    "description": "The Gym Leader of Mistralton City who specializes in Flying-type Pokémon. She is also a pilot who flies planes for the city.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8f/Skyla_BW_anime.png/250px-Skyla_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
+    "gymBadges": ["Jet Badge"],
+    "championships": [],
+    "achievements": ["Flying-type Specialist", "Pilot"],
+    "signaturePokemon": [
+      {
+        "id": 561,
+        "name": "Sigilyph",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
+        "nickname": "Unfezant",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Mistralton City Gym Leader",
+        "description": "Took over the Flying-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Mistralton Gym",
+      "Battled against Flying-type specialists"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Burgundy",
+    "region": "unova",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Castelia City Gym Leader",
+    "description": "The Gym Leader of Castelia City who specializes in Bug-type Pokémon. She is a fashion-conscious trainer who uses Bug-types with style.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/54/Burgundy_BW_anime.png/250px-Burgundy_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
+    "gymBadges": ["Bolt Badge"],
+    "championships": [],
+    "achievements": ["Bug-type Specialist", "Fashion-Conscious Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 542,
+        "name": "Leavanny",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
+        "nickname": "Scolipede",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Castelia City Gym Leader",
+        "description": "Took over the Bug-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Castelia Gym",
+      "Battled against Bug-type specialists"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Elesa",
+    "region": "unova",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Nimbasa City Gym Leader",
+    "description": "The Gym Leader of Nimbasa City who specializes in Electric-type Pokémon. She is a model who uses her Electric-types with glamour.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/15/Elesa_BW_anime.png/250px-Elesa_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
+    "gymBadges": ["Quake Badge"],
+    "championships": [],
+    "achievements": ["Electric-type Specialist", "Model"],
+    "signaturePokemon": [
+      {
+        "id": 643,
+        "name": "Zekrom",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
+        "nickname": "Zebstrika",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Nimbasa City Gym Leader",
+        "description": "Took over the Electric-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Nimbasa Gym",
+      "Battled against Electric-type specialists"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Clair",
+    "region": "unova",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Opelucid City Gym Leader",
+    "description": "The Gym Leader of Opelucid City who specializes in Dragon-type Pokémon. She is a skilled trainer who uses her Dragon-types with authority.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0a/Clair_AG_anime.png/250px-Clair_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
+    "gymBadges": ["Legend Badge"],
+    "championships": [],
+    "achievements": ["Dragon-type Specialist", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 635,
+        "name": "Larvesta",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
+        "nickname": "Volcarona",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Opelucid City Gym Leader",
+        "description": "Took over the Dragon-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Opelucid Gym",
+      "Battled against Dragon-type specialists"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Shauntal",
+    "region": "unova",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Ghost-type Pokémon. She is a novelist who uses her Ghost-types in creative ways.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/18/Shauntal_BW_anime.png/250px-Shauntal_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Novelist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 593,
+        "name": "Jellicent",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
+        "nickname": "Golurk",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Marshal",
+    "region": "unova",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Fighting-type Pokémon. He is a former Gym Leader who uses his Fighting-types with discipline.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Marshal_BW_anime.png/250px-Marshal_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 534,
+        "name": "Conkeldurr",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
+        "nickname": "Lucario",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Grimsley",
+    "region": "unova",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Dark-type Pokémon. He is a mysterious trainer who uses his Dark-types with cunning.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/78/Grimsley_BW_anime.png/250px-Grimsley_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Dark-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 510,
+        "name": "Liepard",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
+        "nickname": "Bisharp",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Caitlin",
+    "region": "unova",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Psychic-type Pokémon. She is a young and skilled trainer who uses her Psychic-types with precision.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9e/Caitlin_BW_anime.png/250px-Caitlin_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Psychic-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 578,
+        "name": "Duosion",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
+        "nickname": "Reuniclus",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Alder",
+    "region": "unova",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Unova Champion",
+    "description": "The Champion of the Unova region who specializes in Normal-type Pokémon. He is a traveling champion who seeks strong trainers to battle.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0e/Alder_BW_anime.png/250px-Alder_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+    "gymBadges": [
+      "Trio Badge",
+      "Basic Badge",
+      "Insect Badge",
+      "Bolt Badge",
+      "Quake Badge",
+      "Jet Badge",
+      "Freeze Badge",
+      "Legend Badge"
+    ],
+    "championships": ["Unova Champion"],
+    "achievements": ["Unova Champion", "Traveling Champion"],
+    "signaturePokemon": [
+      {
+        "id": 500,
+        "name": "Snivy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+        "nickname": "Serperior",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Normal-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Unova region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Traveled to find strong trainers"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Ghetsis",
+    "region": "unova",
+    "role": "Villain",
+    "trainerClass": "Team Plasma Leader",
+    "title": "Team Plasma Leader",
+    "description": "The leader of Team Plasma who aims to separate Pokémon from humans. He is a cunning and manipulative villain with a secret agenda.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5a/Ghetsis_BW_anime.png/250px-Ghetsis_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Plasma Leader", "Pokémon Liberation Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 644,
+        "name": "Zekrom",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
+        "nickname": "Zekrom",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Plasma Leader",
+        "description": "Started Team Plasma organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Zekrom",
+      "Schemed against humans and Pokémon",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Colress",
+    "region": "unova",
+    "role": "Villain",
+    "trainerClass": "Team Plasma Scientist",
+    "title": "Team Plasma Scientist",
+    "description": "A scientist from Team Plasma who experiments with Pokémon and technology. He is known for his control over Pokémon using his device.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7f/Colress_BW_anime.png/250px-Colress_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Plasma Scientist", "Technology Expert"],
+    "signaturePokemon": [
+      {
+        "id": 595,
+        "name": "Joltik",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
+        "nickname": "Galvantula",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Plasma Scientist",
+        "description": "Joined Team Plasma organization"
+      }
+    ],
+    "notableBattles": [
+      "Used technology to control Pokémon",
+      "Schemed for Team Plasma"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Drayden",
+    "region": "unova",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Dragon-type Pokémon. He is a professor who studies Pokémon and battles with expertise.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8c/Drayden_BW_anime.png/250px-Drayden_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Dragon-type Specialist", "Pokémon Professor"],
+    "signaturePokemon": [
+      {
+        "id": 610,
+        "name": "Axew",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
+        "nickname": "Haxorus",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Professor",
+        "description": "Started studying Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Dragon-types effectively"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Lenora",
+    "region": "unova",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Normal-type Pokémon. She is a museum director who studies Pokémon and battles with expertise.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5e/Lenora_BW_anime.png/250px-Lenora_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Normal-type Specialist", "Museum Director"],
+    "signaturePokemon": [
+      {
+        "id": 506,
+        "name": "Lillipup",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
+        "nickname": "Stoutland",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Museum Director",
+        "description": "Started studying Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Normal-types effectively"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Brycen-Man",
+    "region": "unova",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Ice-type Pokémon. He is an actor who performs in the local theater and uses his Pokémon with flair.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4f/Brycen_BW_anime.png/250px-Brycen_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Actor"],
+    "signaturePokemon": [
+      {
+        "id": 622,
+        "name": "Golett",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
+        "nickname": "Golurk",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Actor",
+        "description": "Started using Pokémon in performances"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Ice-types effectively"
+    ]
+  }
+]

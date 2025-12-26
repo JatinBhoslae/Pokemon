@@ -1,0 +1,752 @@
+[
+  {
+    "id": 89,
+    "name": "Calem",
+    "region": "kalos",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Vaniville Town who dreams of becoming a Pokémon Master. He travels with his starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4e/Calem_XY_anime.png/250px-Calem_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
+    "gymBadges": [
+      "Bug Badge",
+      "Cliff Badge",
+      "Rumble Badge",
+      "Plant Badge",
+      "Voltage Badge",
+      "Fairy Badge",
+      "Psychic Badge",
+      "Iceberg Badge"
+    ],
+    "championships": ["Kalos League Champion"],
+    "achievements": ["Pokémon League Champion", "Master of Kalos"],
+    "signaturePokemon": [
+      {
+        "id": 650,
+        "name": "Chespin",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
+        "nickname": "Chesnaught",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Vaniville Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Kalos region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Elite Four Aspirant",
+        "description": "Challenged the Elite Four and Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Flare",
+      "Won Kalos League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Serena",
+    "region": "kalos",
+    "role": "Pokémon Coordinator",
+    "trainerClass": "Pokémon Coordinator",
+    "title": "Pokémon Coordinator",
+    "description": "A Pokémon Coordinator from Vaniville Town who dreams of becoming a Top Coordinator. She travels with her friends to participate in Pokémon Shows and battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1d/Serena_XY_anime.png/250px-Serena_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+    "gymBadges": [
+      "Bug Badge",
+      "Cliff Badge",
+      "Rumble Badge",
+      "Plant Badge",
+      "Voltage Badge",
+      "Fairy Badge",
+      "Psychic Badge",
+      "Iceberg Badge"
+    ],
+    "championships": ["Grand Prix Winner"],
+    "achievements": ["Top Coordinator", "Pokémon Shows Winner"],
+    "signaturePokemon": [
+      {
+        "id": 653,
+        "name": "Fennekin",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+        "nickname": "Braixen",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Coordinator",
+        "description": "Started journey from Vaniville Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Show Participant",
+        "description": "Traveled across Kalos region to participate in Shows"
+      },
+      {
+        "year": "Year 2",
+        "position": "Top Coordinator",
+        "description": "Won multiple Shows and Grand Prix"
+      }
+    ],
+    "notableBattles": [
+      "Won Grand Prix",
+      "Participated in Shows",
+      "Traveled with friends"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Tierno",
+    "region": "kalos",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A energetic Pokémon Trainer and dancer from Vaniville Town. He is known for his love of dancing and using Water-type Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8a/Tierno_XY_anime.png/250px-Tierno_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
+    "gymBadges": [
+      "Bug Badge",
+      "Cliff Badge",
+      "Rumble Badge",
+      "Plant Badge",
+      "Voltage Badge",
+      "Fairy Badge",
+      "Psychic Badge",
+      "Iceberg Badge"
+    ],
+    "championships": [],
+    "achievements": ["Dancing Trainer", "Water-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 656,
+        "name": "Froakie",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
+        "nickname": "Greninja",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Vaniville Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Kalos region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Battled with dance moves",
+      "Defeated Gym Leaders",
+      "Danced during battles"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Viola",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Santalune City Gym Leader",
+    "description": "The Gym Leader of Santalune City who specializes in Bug-type Pokémon. She is also a photographer who captures Pokémon in action.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4a/Viola_XY_anime.png/250px-Viola_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
+    "gymBadges": ["Bug Badge"],
+    "championships": [],
+    "achievements": ["Bug-type Specialist", "Photographer"],
+    "signaturePokemon": [
+      {
+        "id": 666,
+        "name": "Vivillon",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
+        "nickname": "Vivillon",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Santalune City Gym Leader",
+        "description": "Took over the Bug-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Santalune Gym",
+      "Battled against Bug-type specialists"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Grant",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Cyllage City Gym Leader",
+    "description": "The Gym Leader of Cyllage City who specializes in Rock-type Pokémon. He is a paleontologist who studies fossils and uses Rock-types.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9b/Grant_XY_anime.png/250px-Grant_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+    "gymBadges": ["Cliff Badge"],
+    "championships": [],
+    "achievements": ["Rock-type Specialist", "Paleontologist"],
+    "signaturePokemon": [
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+        "nickname": "Rampardos",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Cyllage City Gym Leader",
+        "description": "Took over the Rock-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Cyllage Gym",
+      "Battled against Rock-type specialists"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Korrina",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Shalour City Gym Leader",
+    "description": "The Gym Leader of Shalour City who specializes in Fighting-type Pokémon. She is also a martial artist who uses Mega Evolution.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/34/Korrina_XY_anime.png/250px-Korrina_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
+    "gymBadges": ["Rumble Badge"],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Martial Artist"],
+    "signaturePokemon": [
+      {
+        "id": 674,
+        "name": "Honedge",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
+        "nickname": "Aegislash",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Shalour City Gym Leader",
+        "description": "Took over the Fighting-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Shalour Gym",
+      "Battled against Fighting-type specialists"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Ramos",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Coumarine City Gym Leader",
+    "description": "The Gym Leader of Coumarine City who specializes in Grass-type Pokémon. He is a farmer who grows Pokémon food and herbs.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/17/Ramos_XY_anime.png/250px-Ramos_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
+    "gymBadges": ["Plant Badge"],
+    "championships": [],
+    "achievements": ["Grass-type Specialist", "Farmer"],
+    "signaturePokemon": [
+      {
+        "id": 671,
+        "name": "Flabébé",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
+        "nickname": "Florges",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Coumarine City Gym Leader",
+        "description": "Took over the Grass-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Coumarine Gym",
+      "Battled against Grass-type specialists"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Clemont",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Lumiose City Gym Leader",
+    "description": "The Gym Leader of Lumiose City who specializes in Electric-type Pokémon. He is also an inventor who creates Pokémon-related devices.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7e/Clemont_XY_anime.png/250px-Clemont_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
+    "gymBadges": ["Voltage Badge"],
+    "championships": [],
+    "achievements": ["Electric-type Specialist", "Inventor"],
+    "signaturePokemon": [
+      {
+        "id": 702,
+        "name": "Dedenne",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
+        "nickname": "Dedenne",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Lumiose City Gym Leader",
+        "description": "Took over the Electric-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Lumiose Gym",
+      "Battled against Electric-type specialists"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Valerie",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Laverre City Gym Leader",
+    "description": "The Gym Leader of Laverre City who specializes in Fairy-type Pokémon. She is a beautiful and elegant trainer who uses her Fairy-types with grace.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5c/Valerie_XY_anime.png/250px-Valerie_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
+    "gymBadges": ["Fairy Badge"],
+    "championships": [],
+    "achievements": ["Fairy-type Specialist", "Elegant Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 684,
+        "name": "Swirlix",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
+        "nickname": "Slurpuff",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Laverre City Gym Leader",
+        "description": "Took over the Fairy-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Laverre Gym",
+      "Battled against Fairy-type specialists"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Olympia",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Anistar City Gym Leader",
+    "description": "The Gym Leader of Anistar City who specializes in Psychic-type Pokémon. She is a fortune teller who uses her Psychic-types with mystical abilities.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/46/Olympia_XY_anime.png/250px-Olympia_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
+    "gymBadges": ["Psychic Badge"],
+    "championships": [],
+    "achievements": ["Psychic-type Specialist", "Fortune Teller"],
+    "signaturePokemon": [
+      {
+        "id": 677,
+        "name": "Espurr",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
+        "nickname": "Meowstic",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Anistar City Gym Leader",
+        "description": "Took over the Psychic-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Anistar Gym",
+      "Battled against Psychic-type specialists"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Wulfric",
+    "region": "kalos",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Snowbelle City Gym Leader",
+    "description": "The Gym Leader of Snowbelle City who specializes in Ice-type Pokémon. He is a strong and proud trainer who uses his Ice-types with intensity.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6d/Wulfric_XY_anime.png/250px-Wulfric_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
+    "gymBadges": ["Iceberg Badge"],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Proud Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 712,
+        "name": "Bergmite",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
+        "nickname": "Avalugg",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Snowbelle City Gym Leader",
+        "description": "Took over the Ice-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Snowbelle Gym",
+      "Battled against Ice-type specialists"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Malva",
+    "region": "kalos",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Fire-type Pokémon. She is also a reporter who covers Pokémon news and battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/48/Malva_XY_anime.png/250px-Malva_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Reporter", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 631,
+        "name": "Heatmor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
+        "nickname": "Talonflame",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Siebold",
+    "region": "kalos",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Water-type Pokémon. He is also a chef who prepares gourmet Pokémon food.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0e/Siebold_XY_anime.png/250px-Siebold_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": [
+      "Water-type Specialist",
+      "Gourmet Chef",
+      "Elite Four Member"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 693,
+        "name": "Clawitzer",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
+        "nickname": "Blastoise",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Wikstrom",
+    "region": "kalos",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Steel-type Pokémon. He is also a blacksmith who forges Pokémon equipment.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Wikstrom_XY_anime.png/250px-Wikstrom_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": [
+      "Steel-type Specialist",
+      "Blacksmith",
+      "Elite Four Member"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 680,
+        "name": "Doublade",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png",
+        "nickname": "Aegislash",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Drasna",
+    "region": "kalos",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Flying-type Pokémon. She is also a pilot who flies aircraft for the region.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1c/Drasna_XY_anime.png/250px-Drasna_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Flying-type Specialist", "Pilot", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 629,
+        "name": "Vivillon",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
+        "nickname": "Noivern",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Diantha",
+    "region": "kalos",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Kalos Champion",
+    "description": "The Champion of the Kalos region who specializes in Fairy-type Pokémon. She is also a famous actress who appears in Pokémon movies.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6d/Diantha_XY_anime.png/250px-Diantha_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+    "gymBadges": [
+      "Bug Badge",
+      "Cliff Badge",
+      "Rumble Badge",
+      "Plant Badge",
+      "Voltage Badge",
+      "Fairy Badge",
+      "Psychic Badge",
+      "Iceberg Badge"
+    ],
+    "championships": ["Kalos Champion"],
+    "achievements": ["Kalos Champion", "Famous Actress"],
+    "signaturePokemon": [
+      {
+        "id": 682,
+        "name": "Spritzee",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+        "nickname": "Aromatisse",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Fairy-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Kalos region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Appeared in movies"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Lysandre",
+    "region": "kalos",
+    "role": "Villain",
+    "trainerClass": "Team Flare Leader",
+    "title": "Team Flare Leader",
+    "description": "The leader of Team Flare who aims to create a beautiful world by destroying the current one. He is a scientist with a tragic past.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2e/Lysandre_XY_anime.png/250px-Lysandre_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Flare Leader", "Beauty Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 716,
+        "name": "Xerneas",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+        "nickname": "Xerneas",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Flare Leader",
+        "description": "Started Team Flare organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Xerneas",
+      "Sought to destroy world",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Bryony",
+    "region": "kalos",
+    "role": "Villain",
+    "trainerClass": "Team Flare Admin",
+    "title": "Team Flare Admin",
+    "description": "A member of Team Flare's administration who uses Fairy-type Pokémon. She is known for her elegance and cunning tactics.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/89/Bryony_XY_anime.png/250px-Bryony_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Flare Admin", "Fairy-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 682,
+        "name": "Spritzee",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+        "nickname": "Aromatisse",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Flare Admin",
+        "description": "Joined Team Flare organization"
+      }
+    ],
+    "notableBattles": ["Schemed for Team Flare", "Used Fairy-types in battles"]
+  },
+  {
+    "id": 107,
+    "name": "Xerosic",
+    "region": "kalos",
+    "role": "Villain",
+    "trainerClass": "Team Flare Admin",
+    "title": "Team Flare Admin",
+    "description": "A member of Team Flare's administration who uses Water-type Pokémon. He is known for his scientific approach to Pokémon battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/49/Xerosic_XY_anime.png/250px-Xerosic_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Flare Admin", "Water-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 688,
+        "name": "Binacle",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
+        "nickname": "Barbaracle",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Flare Admin",
+        "description": "Joined Team Flare organization"
+      }
+    ],
+    "notableBattles": ["Schemed for Team Flare", "Used Water-types in battles"]
+  },
+  {
+    "id": 108,
+    "name": "Mable",
+    "region": "kalos",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Normal-type Pokémon. She is a friend and rival to the main characters.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2a/Mable_XY_anime.png/250px-Mable_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Normal-type Specialist", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 659,
+        "name": "Bunnelby",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
+        "nickname": "Diggersby",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": ["Challenged other trainers", "Defeated strong opponents"]
+  }
+]

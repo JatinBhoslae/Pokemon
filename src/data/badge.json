@@ -1,0 +1,444 @@
+{
+  "regions": [
+    {
+      "id": "kanto",
+      "name": "Kanto League",
+      "badges": [
+        {
+          "name": "Boulder Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/7/74/Boulder_Badge.png",
+          "givenBy": "Brock",
+          "gymType": "Rock",
+          "gymLeaderPokemon": ["Onix", "Geodude"]
+        },
+        {
+          "name": "Cascade Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/b/b0/Cascade_Badge.png",
+          "givenBy": "Misty",
+          "gymType": "Water",
+          "gymLeaderPokemon": ["Starmie", "Psyduck"]
+        },
+        {
+          "name": "Thunder Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/5/5f/Thunder_Badge.png",
+          "givenBy": "Lt. Surge",
+          "gymType": "Electric",
+          "gymLeaderPokemon": ["Raichu", "Voltorb"]
+        },
+        {
+          "name": "Rainbow Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/d/d3/Rainbow_Badge.png",
+          "givenBy": "Erika",
+          "gymType": "Grass",
+          "gymLeaderPokemon": ["Vileplume", "Tangela"]
+        },
+        {
+          "name": "Soul Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/6/67/Soul_Badge.png",
+          "givenBy": "Koga / Janine",
+          "gymType": "Poison",
+          "gymLeaderPokemon": ["Crobat", "Muk"]
+        },
+        {
+          "name": "Marsh Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/8/80/Marsh_Badge.png",
+          "givenBy": "Sabrina",
+          "gymType": "Psychic",
+          "gymLeaderPokemon": ["Alakazam", "Mr. Mime"]
+        },
+        {
+          "name": "Volcano Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/4/42/Volcano_Badge.png",
+          "givenBy": "Blaine",
+          "gymType": "Fire",
+          "gymLeaderPokemon": ["Magmar", "Rapidash"]
+        },
+        {
+          "name": "Earth Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/38/Earth_Badge.png",
+          "givenBy": "Giovanni / Blue",
+          "gymType": "Ground",
+          "gymLeaderPokemon": ["Rhyhorn", "Dugtrio"]
+        }
+      ]
+    },
+    {
+      "id": "orange",
+      "name": "Orange Islands League",
+      "badges": [
+        {
+          "name": "Coral-Eye Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/3d/Coral-Eye_Badge.png",
+          "givenBy": "Cissy",
+          "gymType": "Water",
+          "gymLeaderPokemon": ["Seel"]
+        },
+        {
+          "name": "Sea Ruby Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/1/1c/Sea_Ruby_Badge.png",
+          "givenBy": "Danny",
+          "gymType": "Various",
+          "gymLeaderPokemon": ["Gyarados"]
+        },
+        {
+          "name": "Spike Shell Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/9/90/Spike_Shell_Badge.png",
+          "givenBy": "Rudy",
+          "gymType": "Various",
+          "gymLeaderPokemon": ["Cloyster"]
+        },
+        {
+          "name": "Jade Star Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/3b/Jade_Star_Badge.png",
+          "givenBy": "Luana",
+          "gymType": "Various",
+          "gymLeaderPokemon": ["Lanturn"]
+        }
+      ]
+    },
+    {
+      "id": "johto",
+      "name": "Johto League",
+      "badges": [
+        {
+          "name": "Zephyr Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/c/c8/Zephyr_Badge.png",
+          "givenBy": "Falkner",
+          "gymType": "Flying",
+          "gymLeaderPokemon": ["Pidgeot"]
+        },
+        {
+          "name": "Hive Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/0/0f/Hive_Badge.png",
+          "givenBy": "Bugsy",
+          "gymType": "Bug",
+          "gymLeaderPokemon": ["Scizor"]
+        },
+        {
+          "name": "Plain Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/34/Plain_Badge.png",
+          "givenBy": "Whitney",
+          "gymType": "Normal",
+          "gymLeaderPokemon": ["Miltank"]
+        },
+        {
+          "name": "Fog Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/6/6c/Fog_Badge.png",
+          "givenBy": "Morty",
+          "gymType": "Ghost",
+          "gymLeaderPokemon": ["Gengar"]
+        },
+        {
+          "name": "Storm Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/9/97/Storm_Badge.png",
+          "givenBy": "Chuck",
+          "gymType": "Fighting",
+          "gymLeaderPokemon": ["Primeape"]
+        },
+        {
+          "name": "Mineral Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/d/db/Mineral_Badge.png",
+          "givenBy": "Jasmine",
+          "gymType": "Steel",
+          "gymLeaderPokemon": ["Steelix"]
+        },
+        {
+          "name": "Glacier Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/2/27/Glacier_Badge.png",
+          "givenBy": "Pryce",
+          "gymType": "Ice",
+          "gymLeaderPokemon": ["Piloswine"]
+        },
+        {
+          "name": "Rising Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/d/d7/Rising_Badge.png",
+          "givenBy": "Clair",
+          "gymType": "Dragon",
+          "gymLeaderPokemon": ["Dragonair"]
+        }
+      ]
+    },
+    {
+      "id": "hoenn",
+      "name": "Hoenn League",
+      "badges": [
+        {
+          "name": "Stone Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/8/8b/Stone_Badge.png",
+          "givenBy": "Roxanne",
+          "gymType": "Rock",
+          "gymLeaderPokemon": ["Geodude"]
+        },
+        {
+          "name": "Knuckle Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/8/8d/Knuckle_Badge.png",
+          "givenBy": "Brawly",
+          "gymType": "Fighting",
+          "gymLeaderPokemon": ["Machamp"]
+        },
+        {
+          "name": "Dynamo Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/3a/Dynamo_Badge.png",
+          "givenBy": "Wattson",
+          "gymType": "Electric",
+          "gymLeaderPokemon": ["Manectric"]
+        },
+        {
+          "name": "Heat Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/e/ed/Heat_Badge.png",
+          "givenBy": "Flannery",
+          "gymType": "Fire",
+          "gymLeaderPokemon": ["Torkoal"]
+        },
+        {
+          "name": "Balance Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/2/26/Balance_Badge.png",
+          "givenBy": "Norman",
+          "gymType": "Normal",
+          "gymLeaderPokemon": ["Slaking"]
+        },
+        {
+          "name": "Feather Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/9/9d/Feather_Badge.png",
+          "givenBy": "Winona",
+          "gymType": "Flying",
+          "gymLeaderPokemon": ["Swellow"]
+        },
+        {
+          "name": "Mind Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/2/20/Mind_Badge.png",
+          "givenBy": "Tate & Liza",
+          "gymType": "Psychic",
+          "gymLeaderPokemon": ["Lunatone", "Solrock"]
+        },
+        {
+          "name": "Rain Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/0/0f/Rain_Badge.png",
+          "givenBy": "Wallace / Juan",
+          "gymType": "Water",
+          "gymLeaderPokemon": ["Milotic"]
+        }
+      ]
+    },
+    {
+      "id": "sinnoh",
+      "name": "Sinnoh League",
+      "badges": [
+        {
+          "name": "Coal Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/9/9e/Coal_Badge.png",
+          "givenBy": "Roark",
+          "gymType": "Rock",
+          "gymLeaderPokemon": ["Cranidos"]
+        },
+        {
+          "name": "Forest Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/6/66/Forest_Badge.png",
+          "givenBy": "Gardenia",
+          "gymType": "Grass",
+          "gymLeaderPokemon": ["Torterra"]
+        },
+        {
+          "name": "Cobble Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/9/9c/Cobble_Badge.png",
+          "givenBy": "Maylene",
+          "gymType": "Fighting",
+          "gymLeaderPokemon": ["Machamp"]
+        },
+        {
+          "name": "Fen Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/1/14/Fen_Badge.png",
+          "givenBy": "Crasher Wake",
+          "gymType": "Water",
+          "gymLeaderPokemon": ["Floatzel"]
+        },
+        {
+          "name": "Relic Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/a/a9/Relic_Badge.png",
+          "givenBy": "Fantina",
+          "gymType": "Ghost",
+          "gymLeaderPokemon": ["Mismagius"]
+        },
+        {
+          "name": "Mine Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/5/51/Mine_Badge.png",
+          "givenBy": "Byron",
+          "gymType": "Steel",
+          "gymLeaderPokemon": ["Steelix"]
+        },
+        {
+          "name": "Icicle Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/38/Icicle_Badge.png",
+          "givenBy": "Candice",
+          "gymType": "Ice",
+          "gymLeaderPokemon": ["Froslass"]
+        },
+        {
+          "name": "Beacon Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/a/a7/Beacon_Badge.png",
+          "givenBy": "Volkner",
+          "gymType": "Electric",
+          "gymLeaderPokemon": ["Luxray"]
+        }
+      ]
+    },
+    {
+      "id": "unova",
+      "name": "Unova League",
+      "badges": [
+        {
+          "name": "Trio Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/9/9c/Trio_Badge.png",
+          "givenBy": "Cilan / Chili / Cress",
+          "gymType": "Grass/Fire/Water",
+          "gymLeaderPokemon": ["Pansage", "Pansear", "Panpour"]
+        },
+        {
+          "name": "Basic Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/4/4c/Basic_Badge.png",
+          "givenBy": "Lenora / Cheren",
+          "gymType": "Normal",
+          "gymLeaderPokemon": ["Watchog"]
+        },
+        {
+          "name": "Insect Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/8/80/Insect_Badge.png",
+          "givenBy": "Burgh",
+          "gymType": "Bug",
+          "gymLeaderPokemon": ["Leavanny"]
+        },
+        {
+          "name": "Bolt Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/7/7b/Bolt_Badge.png",
+          "givenBy": "Elesa",
+          "gymType": "Electric",
+          "gymLeaderPokemon": ["Emolga"]
+        },
+        {
+          "name": "Quake Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/b/b4/Quake_Badge.png",
+          "givenBy": "Clay",
+          "gymType": "Ground",
+          "gymLeaderPokemon": ["Excadrill"]
+        },
+        {
+          "name": "Jet Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/2/25/Jet_Badge.png",
+          "givenBy": "Skyla",
+          "gymType": "Flying",
+          "gymLeaderPokemon": ["Unfezant"]
+        },
+        {
+          "name": "Freeze Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/3c/Freeze_Badge.png",
+          "givenBy": "Brycen",
+          "gymType": "Ice",
+          "gymLeaderPokemon": ["Beartic"]
+        },
+        {
+          "name": "Legend Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/0/04/Legend_Badge.png",
+          "givenBy": "Drayden / Iris",
+          "gymType": "Dragon",
+          "gymLeaderPokemon": ["Haxorus"]
+        }
+      ]
+    },
+    {
+      "id": "kalos",
+      "name": "Kalos League",
+      "badges": [
+        {
+          "name": "Bug Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/3/30/Bug_Badge.png",
+          "givenBy": "Viola",
+          "gymType": "Bug",
+          "gymLeaderPokemon": ["Surskit"]
+        },
+        {
+          "name": "Cliff Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/4/4a/Cliff_Badge.png",
+          "givenBy": "Grant",
+          "gymType": "Rock",
+          "gymLeaderPokemon": ["Amaura"]
+        },
+        {
+          "name": "Rumble Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/5/5b/Rumble_Badge.png",
+          "givenBy": "Korrina",
+          "gymType": "Fighting",
+          "gymLeaderPokemon": ["Lucario"]
+        },
+        {
+          "name": "Plant Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/7/70/Plant_Badge.png",
+          "givenBy": "Ramos",
+          "gymType": "Grass",
+          "gymLeaderPokemon": ["Weepinbell"]
+        },
+        {
+          "name": "Voltage Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/e/e4/Voltage_Badge.png",
+          "givenBy": "Clemont",
+          "gymType": "Electric",
+          "gymLeaderPokemon": ["Magneton"]
+        },
+        {
+          "name": "Fairy Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/0/0a/Fairy_Badge.png",
+          "givenBy": "Valerie",
+          "gymType": "Fairy",
+          "gymLeaderPokemon": ["Sylveon"]
+        },
+        {
+          "name": "Psychic Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/1/14/Psychic_Badge.png",
+          "givenBy": "Olympia",
+          "gymType": "Psychic",
+          "gymLeaderPokemon": ["Meowstic"]
+        },
+        {
+          "name": "Iceberg Badge",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/8/8f/Iceberg_Badge.png",
+          "givenBy": "Wulfric",
+          "gymType": "Ice",
+          "gymLeaderPokemon": ["Abomasnow"]
+        }
+      ]
+    },
+    {
+      "id": "alola",
+      "name": "Alola Trials (Badge Equivalent)",
+      "badges": [
+        {
+          "name": "Melemele Trial",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/c/cf/Melemele_Trial_Badge.png",
+          "givenBy": "Trial Captains",
+          "gymType": "Island Trials",
+          "gymLeaderPokemon": ["Various"]
+        },
+        {
+          "name": "Akala Trial",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/8/85/Akala_Trial_Badge.png",
+          "givenBy": "Trial Captains",
+          "gymType": "Island Trials",
+          "gymLeaderPokemon": ["Various"]
+        },
+        {
+          "name": "Ula'ula Trial",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/5/57/Ulaula_Trial_Badge.png",
+          "givenBy": "Trial Captains",
+          "gymType": "Island Trials",
+          "gymLeaderPokemon": ["Various"]
+        },
+        {
+          "name": "Poni Trial",
+          "imageUrl": "https://archives.bulbagarden.net/media/upload/e/e9/Poni_Trial_Badge.png",
+          "givenBy": "Trial Captains",
+          "gymType": "Island Trials",
+          "gymLeaderPokemon": ["Various"]
+        }
+      ]
+    }
+  ]
+}

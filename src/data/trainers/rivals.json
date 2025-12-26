@@ -1,0 +1,478 @@
+[
+  {
+    "id": 179,
+    "name": "Gary Oak",
+    "region": "kanto",
+    "role": "Rival",
+    "trainerClass": "Pokémon Researcher",
+    "title": "Pokémon Researcher",
+    "description": "A Pokémon Trainer and Researcher from Pallet Town. He was Ash's rival during their early journeys but later became a Pokémon Researcher.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8f/Gary_Oak_AG_anime.png/250px-Gary_Oak_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": ["Pokémon League Champion"],
+    "achievements": [
+      "Pokémon League Champion",
+      "Top Pokémon Researcher",
+      "Pokémon Research Award"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 133,
+        "name": "Eevee",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        "nickname": "Eevee",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Early journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey as a trainer with Eevee"
+      },
+      {
+        "year": "Later years",
+        "position": "Pokémon Researcher",
+        "description": "Focused on Pokémon research and development"
+      }
+    ],
+    "notableBattles": ["Became Pokémon League Champion", "Battled against Ash"]
+  },
+  {
+    "id": 180,
+    "name": "Barry",
+    "region": "sinnoh",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A energetic Pokémon Trainer from Twinleaf Town and the rival of Lucas. He is known for his competitive spirit and determination.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3d/Barry_DP_anime.png/250px-Barry_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+    "gymBadges": [
+      "Coal Badge",
+      "Forest Badge",
+      "Cobble Badge",
+      "Fen Badge",
+      "Relic Badge",
+      "Mine Badge",
+      "Icicle Badge",
+      "Beacon Badge"
+    ],
+    "championships": [],
+    "achievements": ["Competitive Trainer", "Lucas's Rival"],
+    "signaturePokemon": [
+      {
+        "id": 390,
+        "name": "Chimchar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+        "nickname": "Infernape",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Twinleaf Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Sinnoh region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Battled against Lucas",
+      "Defeated Gym Leaders",
+      "Competed in battles"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Trip",
+    "region": "unova",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer from Nuvema Town who specializes in Grass-type Pokémon. He is known for his pride and competitive nature.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8a/Trip_BW_anime.png/250px-Trip_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+    "gymBadges": [
+      "Trio Badge",
+      "Basic Badge",
+      "Insect Badge",
+      "Bolt Badge",
+      "Quake Badge",
+      "Jet Badge",
+      "Freeze Badge",
+      "Legend Badge"
+    ],
+    "championships": [],
+    "achievements": ["Grass-type Specialist", "Prideful Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 495,
+        "name": "Snivy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+        "nickname": "Serperior",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Nuvema Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Unova region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Battled against rivals",
+      "Defeated Gym Leaders",
+      "Used Grass-types effectively"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Tierno",
+    "region": "kalos",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A energetic Pokémon Trainer and dancer from Vaniville Town. He is known for his love of dancing and using Water-type Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8a/Tierno_XY_anime.png/250px-Tierno_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
+    "gymBadges": [
+      "Bug Badge",
+      "Cliff Badge",
+      "Rumble Badge",
+      "Plant Badge",
+      "Voltage Badge",
+      "Fairy Badge",
+      "Psychic Badge",
+      "Iceberg Badge"
+    ],
+    "championships": [],
+    "achievements": ["Dancing Trainer", "Water-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 656,
+        "name": "Froakie",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
+        "nickname": "Greninja",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Vaniville Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Kalos region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Battled with dance moves",
+      "Defeated Gym Leaders",
+      "Danced during battles"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Kabu",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Fire-type Pokémon. He is also a chef who creates spicy dishes.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/19/Kabu_SWSH_anime.png/250px-Kabu_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 815,
+        "name": "Scorbunny",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+        "nickname": "Cinderace",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Fire-types effectively"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Blue Oak",
+    "region": "kanto",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer from Pallet Town and rival of Red. He became the Champion of the Kanto region.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8f/Gary_Oak_AG_anime.png/250px-Gary_Oak_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": ["Kanto Champion"],
+    "achievements": ["Kanto Champion", "Pokémon League Champion"],
+    "signaturePokemon": [
+      {
+        "id": 3,
+        "name": "Venusaur",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "nickname": "Venusaur",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Early journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Squirtle"
+      },
+      {
+        "year": "After journey",
+        "position": "Pokémon Champion",
+        "description": "Defeated the Elite Four and became Champion"
+      }
+    ],
+    "notableBattles": ["Defeated the Elite Four", "Became Pokémon Champion"]
+  },
+  {
+    "id": 185,
+    "name": "Silver",
+    "region": "johto",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A mysterious Pokémon Trainer and rival of the player in the Johto region. He has a connection to Team Rocket and Giovanni.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4d/Silver_GS_anime.png/250px-Silver_GS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "gymBadges": [
+      "Zephyr Badge",
+      "Hive Badge",
+      "Plain Badge",
+      "Fog Badge",
+      "Storm Badge",
+      "Mineral Badge",
+      "Glacier Badge",
+      "Rising Badge"
+    ],
+    "championships": [],
+    "achievements": ["Skilled Trainer", "Team Rocket Connection"],
+    "signaturePokemon": [
+      {
+        "id": 150,
+        "name": "Mewtwo",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+        "nickname": "Mewtwo",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with mysterious past"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Johto region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Gym Leaders",
+      "Connected to Team Rocket",
+      "Battled against rivals"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Wally",
+    "region": "hoenn",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A young Pokémon Trainer who starts his journey with a Ralts. Despite his illness, he becomes a skilled trainer and grows stronger throughout his journey.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5c/Wally_RS_anime.png/250px-Wally_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": [],
+    "achievements": ["Overcame Illness", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 280,
+        "name": "Ralts",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+        "nickname": "Kirlia",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey despite illness"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Hoenn region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Gym Leaders",
+      "Overcame his illness",
+      "Grew stronger"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Hilbert",
+    "region": "unova",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Aspertia City who dreams of becoming a Pokémon Master. He travels with his friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3f/Cheren_BW_anime.png/250px-Cheren_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+    "gymBadges": [
+      "Trio Badge",
+      "Basic Badge",
+      "Insect Badge",
+      "Bolt Badge",
+      "Quake Badge",
+      "Jet Badge",
+      "Freeze Badge",
+      "Legend Badge"
+    ],
+    "championships": [],
+    "achievements": ["Skilled Trainer", "Supportive Friend"],
+    "signaturePokemon": [
+      {
+        "id": 495,
+        "name": "Snivy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+        "nickname": "Serperior",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Aspertia City"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Unova region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Traveled with friends",
+      "Defeated Gym Leaders",
+      "Supported others"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Serena",
+    "region": "kalos",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Coordinator from Vaniville Town who dreams of becoming a Top Coordinator. She travels with her friends to participate in Pokémon Shows and battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1d/Serena_XY_anime.png/250px-Serena_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+    "gymBadges": [
+      "Bug Badge",
+      "Cliff Badge",
+      "Rumble Badge",
+      "Plant Badge",
+      "Voltage Badge",
+      "Fairy Badge",
+      "Psychic Badge",
+      "Iceberg Badge"
+    ],
+    "championships": ["Grand Prix Winner"],
+    "achievements": ["Top Coordinator", "Pokémon Shows Winner"],
+    "signaturePokemon": [
+      {
+        "id": 653,
+        "name": "Fennekin",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+        "nickname": "Braixen",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Coordinator",
+        "description": "Started journey from Vaniville Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Show Participant",
+        "description": "Traveled across Kalos region to participate in Shows"
+      },
+      {
+        "year": "Year 2",
+        "position": "Top Coordinator",
+        "description": "Won multiple Shows and Grand Prix"
+      }
+    ],
+    "notableBattles": [
+      "Won Grand Prix",
+      "Participated in Shows",
+      "Traveled with friends"
+    ]
+  }
+]

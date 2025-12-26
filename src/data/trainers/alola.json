@@ -1,0 +1,744 @@
+[
+  {
+    "id": 109,
+    "name": "Hau",
+    "region": "alola",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Melemele Island who dreams of becoming a Pokémon Master. He travels with his starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1e/Hau_SM_anime.png/250px-Hau_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
+    "gymBadges": [
+      "Normalium Z",
+      "Firium Z",
+      "Waterium Z",
+      "Electrium Z",
+      "Grassium Z",
+      "Icium Z",
+      "Fightinium Z",
+      "Poisonium Z"
+    ],
+    "championships": ["Alola Champion"],
+    "achievements": ["Pokémon Champion", "Master of Alola"],
+    "signaturePokemon": [
+      {
+        "id": 722,
+        "name": "Rowlet",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
+        "nickname": "Decidueye",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Melemele Island"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Island Challenge Participant",
+        "description": "Traveled across Alola islands to complete challenges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Pokémon Champion",
+        "description": "Challenged the Island Kahuna and became Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Skull",
+      "Won Alola League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Lillie",
+    "region": "alola",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Melemele Island who is initially afraid of Pokémon but grows to love them. She travels with her friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8a/Lillie_SM_anime.png/250px-Lillie_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
+    "gymBadges": [
+      "Normalium Z",
+      "Firium Z",
+      "Waterium Z",
+      "Electrium Z",
+      "Grassium Z",
+      "Icium Z",
+      "Fightinium Z",
+      "Poisonium Z"
+    ],
+    "championships": [],
+    "achievements": ["Overcame Fear", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 731,
+        "name": "Pikipek",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
+        "nickname": "Tsareena",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Melemele Island"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Island Challenge Participant",
+        "description": "Traveled across Alola islands to complete challenges"
+      }
+    ],
+    "notableBattles": [
+      "Overcame fear of Pokémon",
+      "Traveled with friends",
+      "Defeated Team Skull"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Gladion",
+    "region": "alola",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer and researcher from Alola who has a deep connection with Dark-type Pokémon. He is Lillie's older brother.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Gladion_SM_anime.png/250px-Gladion_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Dark-type Specialist", "Pokémon Researcher"],
+    "signaturePokemon": [
+      {
+        "id": 718,
+        "name": "Zygarde",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
+        "nickname": "Zygarde",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Researcher",
+        "description": "Started researching Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Used Dark-types effectively",
+      "Protected sister Lillie",
+      "Connected with Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Hala",
+    "region": "alola",
+    "role": "Island Kahuna",
+    "trainerClass": "Island Kahuna",
+    "title": "Melemele Island Kahuna",
+    "description": "The Island Kahuna of Melemele Island who specializes in Fighting-type Pokémon. He is a martial artist who teaches the Island Challenge.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8a/Hala_SM_anime.png/250px-Hala_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Island Kahuna"],
+    "signaturePokemon": [
+      {
+        "id": 760,
+        "name": "Bewear",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
+        "nickname": "Bewear",
+        "role": "Kahuna Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Melemele Island Kahuna",
+        "description": "Took over the Island Kahuna role"
+      }
+    ],
+    "notableBattles": [
+      "Taught Island Challenge",
+      "Battled against Fighting-type specialists"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Olivia",
+    "region": "alola",
+    "role": "Island Kahuna",
+    "trainerClass": "Island Kahuna",
+    "title": "Akala Island Kahuna",
+    "description": "The Island Kahuna of Akala Island who specializes in Rock-type Pokémon. She is a sculptor who creates art with her Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/63/Olivia_SM_anime.png/250px-Olivia_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Rock-type Specialist", "Sculptor"],
+    "signaturePokemon": [
+      {
+        "id": 749,
+        "name": "Mudbray",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
+        "nickname": "Mudsdale",
+        "role": "Kahuna Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Akala Island Kahuna",
+        "description": "Took over the Island Kahuna role"
+      }
+    ],
+    "notableBattles": [
+      "Taught Island Challenge",
+      "Battled against Rock-type specialists"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Nanu",
+    "region": "alola",
+    "role": "Island Kahuna",
+    "trainerClass": "Island Kahuna",
+    "title": "Ula'ula Island Kahuna",
+    "description": "The Island Kahuna of Ula'ula Island who specializes in Dark-type Pokémon. He is a detective who solves mysteries with his Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7b/Nanu_SM_anime.png/250px-Nanu_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Dark-type Specialist", "Detective"],
+    "signaturePokemon": [
+      {
+        "id": 761,
+        "name": "Stufful",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
+        "nickname": "Bewear",
+        "role": "Kahuna Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Ula'ula Island Kahuna",
+        "description": "Took over the Island Kahuna role"
+      }
+    ],
+    "notableBattles": [
+      "Taught Island Challenge",
+      "Battled against Dark-type specialists"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Hapu",
+    "region": "alola",
+    "role": "Island Kahuna",
+    "trainerClass": "Island Kahuna",
+    "title": "Poni Island Kahuna",
+    "description": "The Island Kahuna of Poni Island who specializes in Ground-type Pokémon. She is an elderly woman who has been the Kahuna for many years.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/14/Hapu_SM_anime.png/250px-Hapu_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ground-type Specialist", "Elderly Kahuna"],
+    "signaturePokemon": [
+      {
+        "id": 777,
+        "name": "Togedemaru",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
+        "nickname": "Togedemaru",
+        "role": "Kahuna Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Poni Island Kahuna",
+        "description": "Has been Island Kahuna for many years"
+      }
+    ],
+    "notableBattles": [
+      "Taught Island Challenge",
+      "Battled against Ground-type specialists"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Mallow",
+    "region": "alola",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Akala Island who specializes in Grass-type Pokémon. She is a chef who cooks with ingredients found in Alola.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/74/Mallow_SM_anime.png/250px-Mallow_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+    "gymBadges": [
+      "Normalium Z",
+      "Firium Z",
+      "Waterium Z",
+      "Electrium Z",
+      "Grassium Z",
+      "Icium Z",
+      "Fightinium Z",
+      "Poisonium Z"
+    ],
+    "championships": [],
+    "achievements": ["Grass-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 724,
+        "name": "Litten",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+        "nickname": "Incineroar",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Akala Island"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Island Challenge Participant",
+        "description": "Traveled across Alola islands to complete challenges"
+      }
+    ],
+    "notableBattles": [
+      "Used Grass-types effectively",
+      "Cooked with Alola ingredients",
+      "Defeated Team Skull"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Sophocles",
+    "region": "alola",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Akala Island who specializes in Flying-type Pokémon. He is an inventor who creates gadgets for Pokémon battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6f/Sophocles_SM_anime.png/250px-Sophocles_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
+    "gymBadges": [
+      "Normalium Z",
+      "Firium Z",
+      "Waterium Z",
+      "Electrium Z",
+      "Grassium Z",
+      "Icium Z",
+      "Fightinium Z",
+      "Poisonium Z"
+    ],
+    "championships": [],
+    "achievements": ["Flying-type Specialist", "Inventor"],
+    "signaturePokemon": [
+      {
+        "id": 720,
+        "name": "Cosmoem",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
+        "nickname": "Solgaleo",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Akala Island"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Island Challenge Participant",
+        "description": "Traveled across Alola islands to complete challenges"
+      }
+    ],
+    "notableBattles": [
+      "Used Flying-types effectively",
+      "Created battle gadgets",
+      "Defeated Team Skull"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Kukui",
+    "region": "alola",
+    "role": "Professor",
+    "trainerClass": "Pokémon Professor",
+    "title": "Pokémon Professor",
+    "description": "A Pokémon Professor who studies Pokémon and their relationship with humans. He gave the player their first Pokémon and continues to research Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0f/Professor_Kukui_SM_anime.png/250px-Professor_Kukui_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Pokémon Researcher", "Pokémon Professor"],
+    "signaturePokemon": [
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "nickname": "Pikachu",
+        "role": "Research Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Professor",
+        "description": "Started Pokémon research"
+      }
+    ],
+    "notableBattles": ["Trained many researchers", "Advanced Pokémon science"]
+  },
+  {
+    "id": 119,
+    "name": "Plumeria",
+    "region": "alola",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Fire-type Pokémon. She is the former leader of Team Skull who reforms.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3e/Plumeria_SM_anime.png/250px-Plumeria_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Reformed Villain"],
+    "signaturePokemon": [
+      {
+        "id": 724,
+        "name": "Litten",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+        "nickname": "Incineroar",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Skull Leader",
+        "description": "Led Team Skull organization"
+      },
+      {
+        "year": "After reform",
+        "position": "Pokémon Trainer",
+        "description": "Reformed and became a proper trainer"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Fire-types effectively"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Guzma",
+    "region": "alola",
+    "role": "Villain",
+    "trainerClass": "Team Skull Boss",
+    "title": "Team Skull Boss",
+    "description": "The leader of Team Skull who aims to create a world where only strong people survive. He is a strong and prideful villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/87/Guzma_SM_anime.png/250px-Guzma_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Skull Boss", "Strong Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 752,
+        "name": "Araquanid",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
+        "nickname": "Araquanid",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Skull Boss",
+        "description": "Started Team Skull organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Team Skull",
+      "Sought to create strong world",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Kiawe",
+    "region": "alola",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Akala Island who specializes in Fire-type Pokémon. He is a rancher who raises Pokémon and cattle.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Kiawe_SM_anime.png/250px-Kiawe_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+    "gymBadges": [
+      "Normalium Z",
+      "Firium Z",
+      "Waterium Z",
+      "Electrium Z",
+      "Grassium Z",
+      "Icium Z",
+      "Fightinium Z",
+      "Poisonium Z"
+    ],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Rancher"],
+    "signaturePokemon": [
+      {
+        "id": 724,
+        "name": "Litten",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+        "nickname": "Torracat",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Akala Island"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Island Challenge Participant",
+        "description": "Traveled across Alola islands to complete challenges"
+      }
+    ],
+    "notableBattles": [
+      "Used Fire-types effectively",
+      "Ran the family ranch",
+      "Defeated Team Skull"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Acerola",
+    "region": "alola",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Ula'ula Island who specializes in Ghost-type Pokémon. She is a young girl who loves horror stories.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/18/Acerola_SM_anime.png/250px-Acerola_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
+    "gymBadges": [
+      "Normalium Z",
+      "Firium Z",
+      "Waterium Z",
+      "Electrium Z",
+      "Grassium Z",
+      "Icium Z",
+      "Fightinium Z",
+      "Poisonium Z"
+    ],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Horror Story Fan"],
+    "signaturePokemon": [
+      {
+        "id": 774,
+        "name": "Minior",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
+        "nickname": "Minior",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Ula'ula Island"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Island Challenge Participant",
+        "description": "Traveled across Alola islands to complete challenges"
+      }
+    ],
+    "notableBattles": [
+      "Used Ghost-types effectively",
+      "Told scary stories",
+      "Defeated Team Skull"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Mina",
+    "region": "alola",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Ula'ula Island who specializes in Fairy-type Pokémon. She is a kind girl who loves to play with Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3a/Mina_SM_anime.png/250px-Mina_SM_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
+    "gymBadges": [
+      "Normalium Z",
+      "Firium Z",
+      "Waterium Z",
+      "Electrium Z",
+      "Grassium Z",
+      "Icium Z",
+      "Fightinium Z",
+      "Poisonium Z"
+    ],
+    "championships": [],
+    "achievements": ["Fairy-type Specialist", "Kind Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 764,
+        "name": "Comfey",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
+        "nickname": "Comfey",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Ula'ula Island"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Island Challenge Participant",
+        "description": "Traveled across Alola islands to complete challenges"
+      }
+    ],
+    "notableBattles": [
+      "Used Fairy-types effectively",
+      "Played with Pokémon",
+      "Defeated Team Skull"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Solgaleo",
+    "region": "alola",
+    "role": "Legendary",
+    "trainerClass": "Legendary Pokémon",
+    "title": "Legendary Pokémon",
+    "description": "The Legendary Pokémon representing the sun in Alola. It is connected to the Ultra Wormhole and has incredible power.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0b/Solgaleo.png/250px-Solgaleo.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Legendary Pokémon", "Sun Symbol"],
+    "signaturePokemon": [],
+    "careerHistory": [
+      {
+        "year": "Legend",
+        "position": "Legendary Pokémon",
+        "description": "Exists as a Legendary Pokémon"
+      }
+    ],
+    "notableBattles": ["Connected to Ultra Wormhole", "Traveled between worlds"]
+  },
+  {
+    "id": 125,
+    "name": "Lunala",
+    "region": "alola",
+    "role": "Legendary",
+    "trainerClass": "Legendary Pokémon",
+    "title": "Legendary Pokémon",
+    "description": "The Legendary Pokémon representing the moon in Alola. It is connected to the Ultra Wormhole and has incredible power.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3a/Lunala.png/250px-Lunala.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Legendary Pokémon", "Moon Symbol"],
+    "signaturePokemon": [],
+    "careerHistory": [
+      {
+        "year": "Legend",
+        "position": "Legendary Pokémon",
+        "description": "Exists as a Legendary Pokémon"
+      }
+    ],
+    "notableBattles": ["Connected to Ultra Wormhole", "Traveled between worlds"]
+  },
+  {
+    "id": 126,
+    "name": "Necrozma",
+    "region": "alola",
+    "role": "Legendary",
+    "trainerClass": "Legendary Pokémon",
+    "title": "Legendary Pokémon",
+    "description": "The Legendary Pokémon that once shone with light of its own. It seeks light from Solgaleo or Lunala to return to its original form.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/67/Necrozma.png/250px-Necrozma.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Legendary Pokémon", "Light Seeker"],
+    "signaturePokemon": [],
+    "careerHistory": [
+      {
+        "year": "Legend",
+        "position": "Legendary Pokémon",
+        "description": "Exists as a Legendary Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Sought light from other Legendaries",
+      "Transformed into different forms"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Kartana",
+    "region": "alola",
+    "role": "Legendary",
+    "trainerClass": "Legendary Pokémon",
+    "title": "Legendary Pokémon",
+    "description": "One of the Ultra Beasts that came from another world. It is sharp as a blade and can cut through anything.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9f/Kartana.png/250px-Kartana.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ultra Beast", "Sharp as Blade"],
+    "signaturePokemon": [],
+    "careerHistory": [
+      {
+        "year": "Legend",
+        "position": "Ultra Beast",
+        "description": "Came from another world"
+      }
+    ],
+    "notableBattles": ["Cut through anything", "Traveled from another world"]
+  },
+  {
+    "id": 128,
+    "name": "Celesteela",
+    "region": "alola",
+    "role": "Legendary",
+    "trainerClass": "Legendary Pokémon",
+    "title": "Legendary Pokémon",
+    "description": "One of the Ultra Beasts that came from another world. It is massive and can fly through space.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/33/Celesteela.png/250px-Celesteela.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ultra Beast", "Space Traveler"],
+    "signaturePokemon": [],
+    "careerHistory": [
+      {
+        "year": "Legend",
+        "position": "Ultra Beast",
+        "description": "Came from another world"
+      }
+    ],
+    "notableBattles": ["Traveled through space", "Traveled from another world"]
+  }
+]

@@ -1,0 +1,163 @@
+{
+  "pokemon_anime_leagues": [
+    {
+      "id": "orange_league",
+      "name": "Orange League",
+      "region": "Orange Islands",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/a/ad/Orange_Islands_League.png",
+      "description": "A unique anime-only regional competition featuring 4 Gym challenges in the Orange Archipelago, where Ash competes and earns victory.",
+      "year": "1999",
+      "winner": {
+        "name": "Ash Ketchum",
+        "result": "Champion",
+        "notableBattles": ["Vs. Drake (Champion)"]
+      },
+      "runnerUp": null,
+      "participants": [
+        "Ash Ketchum",
+        "Gym Leaders: Cissy, Danny, Rudy, Luana",
+        "Champion Drake"
+      ]
+    },
+    {
+      "id": "indigo_league",
+      "name": "Indigo Plateau Conference",
+      "region": "Kanto/Johto",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/1/10/Indigo_Plateau_Stadium.png",
+      "description": "The first major Pokémon League Ash enters after earning 8 badges in Kanto and Johto. Ash reaches the Top 16.",
+      "year": "1997",
+      "winner": {
+        "name": "Unknown Champion",
+        "result": "Anime canon not confirmed"
+      },
+      "runnerUp": null,
+      "participants": [
+        "Ash Ketchum",
+        "Ritchie",
+        "Various Trainers at Conference"
+      ]
+    },
+    {
+      "id": "johto_league",
+      "name": "Johto League Conference",
+      "region": "Johto",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/2/25/Johto_League_Conference.png",
+      "description": "Ash competes in the Johto regional competition, reaching Top 8 before being eliminated. There is no official canon winner in the anime.",
+      "year": "2001",
+      "winner": {
+        "name": "Unknown Champion",
+        "result": "Not canonically confirmed"
+      },
+      "runnerUp": null,
+      "participants": ["Ash Ketchum", "Brock", "Misty", "Johto League Trainers"]
+    },
+    {
+      "id": "hoenn_league",
+      "name": "Hoenn League Conference",
+      "region": "Hoenn",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/8/80/Hoenn_League_Conference.png",
+      "description": "Ash makes it to the Top 8 of the Hoenn League but is defeated by Tyson, who becomes the league's winner in the anime.",
+      "year": "2005",
+      "winner": {
+        "name": "Tyson",
+        "result": "Champion",
+        "notableBattles": ["Vs. Ash in Top 8"]
+      },
+      "runnerUp": null,
+      "participants": ["Ash Ketchum", "Tyson", "Various Hoenn Trainers"]
+    },
+    {
+      "id": "sinnoh_league",
+      "name": "Sinnoh League Conference",
+      "region": "Sinnoh",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/3/31/Sinnoh_League_Conference.png",
+      "description": "Ash reaches the Top 4 in the Sinnoh League Conference, losing to Tobias (who is widely considered the strongest anime trainer before World Coronation Series).",
+      "year": "2010",
+      "winner": {
+        "name": "Tobias",
+        "result": "Champion"
+      },
+      "runnerUp": {
+        "name": "Ash Ketchum",
+        "result": "Top 4"
+      },
+      "participants": ["Ash Ketchum", "Tobias", "Dawn", "Brock"]
+    },
+    {
+      "id": "unova_league",
+      "name": "Unova League Conference",
+      "region": "Unova",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/9/98/Unova_League_Conference.png",
+      "description": "Ash competes in the Unova League Conference, reaching the quarterfinals/Top 8 before being defeated.",
+      "year": "2013",
+      "winner": {
+        "name": "Unknown Champion",
+        "result": "Anime canon not fully confirmed"
+      },
+      "runnerUp": null,
+      "participants": ["Ash Ketchum", "Trip", "Various Unova Trainers"]
+    },
+    {
+      "id": "kalos_league",
+      "name": "Kalos League Conference",
+      "region": "Kalos",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/b/bf/Kalos_League_Conference.png",
+      "description": "Ash makes it to the finals of the Kalos League, ultimately finishing as Runner-Up to Alain.",
+      "year": "2016",
+      "winner": {
+        "name": "Alain",
+        "result": "Champion"
+      },
+      "runnerUp": {
+        "name": "Ash Ketchum",
+        "result": "Runner-Up"
+      },
+      "participants": ["Ash Ketchum", "Alain", "Clemont", "Serena", "Bonnie"]
+    },
+    {
+      "id": "alola_league",
+      "name": "Alola League / Manalo Conference",
+      "region": "Alola",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/0/09/Manalo_Conference.png",
+      "description": "Ash earns his first major league victory as Champion of the Alola League (Manalo Conference), the first time he wins an official Pokémon regional league in the anime. :contentReference[oaicite:2]{index=2}",
+      "year": "2019",
+      "winner": {
+        "name": "Ash Ketchum",
+        "result": "Champion"
+      },
+      "runnerUp": null,
+      "participants": [
+        "Ash Ketchum",
+        "Professor Kukui",
+        "Lillie",
+        "Various Alola Trainers"
+      ]
+    },
+    {
+      "id": "world_coronation_series",
+      "name": "World Coronation Series (Global)",
+      "region": "World",
+      "imageUrl": "https://archives.bulbagarden.net/media/upload/8/87/World_Coronation_Series_Logo.png",
+      "description": "A worldwide competition to rank and find the strongest Trainers from all regions. Ash becomes World Monarch (World Champion) after defeating Leon in the Masters Eight Tournament. :contentReference[oaicite:3]{index=3}",
+      "year": "2025",
+      "winner": {
+        "name": "Ash Ketchum",
+        "result": "World Champion"
+      },
+      "runnerUp": {
+        "name": "Leon",
+        "result": "Runner-Up"
+      },
+      "participants": [
+        "Ash Ketchum",
+        "Leon",
+        "Cynthia",
+        "Diantha",
+        "Steven Stone",
+        "Lance",
+        "Alain",
+        "Iris"
+      ]
+    }
+  ]
+}

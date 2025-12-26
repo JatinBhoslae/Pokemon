@@ -1,0 +1,500 @@
+[
+  {
+    "id": 169,
+    "name": "Blue Oak",
+    "region": "kanto",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Kanto Champion",
+    "description": "A skilled Pokémon Trainer from Pallet Town and rival of Red. He became the Champion of the Kanto region.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8f/Gary_Oak_AG_anime.png/250px-Gary_Oak_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": ["Kanto Champion"],
+    "achievements": ["Kanto Champion", "Pokémon League Champion"],
+    "signaturePokemon": [
+      {
+        "id": 3,
+        "name": "Venusaur",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "nickname": "Venusaur",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Early journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Squirtle"
+      },
+      {
+        "year": "After journey",
+        "position": "Pokémon Champion",
+        "description": "Defeated the Elite Four and became Champion"
+      }
+    ],
+    "notableBattles": ["Defeated the Elite Four", "Became Pokémon Champion"]
+  },
+  {
+    "id": 170,
+    "name": "Cynthia",
+    "region": "sinnoh",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Sinnoh Champion",
+    "description": "The Champion of the Sinnoh region who specializes in Normal-type Pokémon. She is also a skilled researcher who studies Pokémon history and legends.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Cynthia_DP_anime.png/250px-Cynthia_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+    "gymBadges": [
+      "Coal Badge",
+      "Forest Badge",
+      "Cobble Badge",
+      "Fen Badge",
+      "Relic Badge",
+      "Mine Badge",
+      "Icicle Badge",
+      "Beacon Badge"
+    ],
+    "championships": ["Sinnoh Champion"],
+    "achievements": [
+      "Sinnoh Champion",
+      "Pokémon Researcher",
+      "Legendary Pokémon Expert"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 448,
+        "name": "Lucario",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+        "nickname": "Garchomp",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Researcher",
+        "description": "Started researching Pokémon"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Sinnoh region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Studied legendary Pokémon"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Alder",
+    "region": "unova",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Unova Champion",
+    "description": "The Champion of the Unova region who specializes in Normal-type Pokémon. He is a traveling champion who seeks strong trainers to battle.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0e/Alder_BW_anime.png/250px-Alder_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+    "gymBadges": [
+      "Trio Badge",
+      "Basic Badge",
+      "Insect Badge",
+      "Bolt Badge",
+      "Quake Badge",
+      "Jet Badge",
+      "Freeze Badge",
+      "Legend Badge"
+    ],
+    "championships": ["Unova Champion"],
+    "achievements": ["Unova Champion", "Traveling Champion"],
+    "signaturePokemon": [
+      {
+        "id": 500,
+        "name": "Snivy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+        "nickname": "Serperior",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Normal-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Unova region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Traveled to find strong trainers"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Diantha",
+    "region": "kalos",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Kalos Champion",
+    "description": "The Champion of the Kalos region who specializes in Fairy-type Pokémon. She is also a famous actress who appears in Pokémon movies.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6d/Diantha_XY_anime.png/250px-Diantha_XY_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+    "gymBadges": [
+      "Bug Badge",
+      "Cliff Badge",
+      "Rumble Badge",
+      "Plant Badge",
+      "Voltage Badge",
+      "Fairy Badge",
+      "Psychic Badge",
+      "Iceberg Badge"
+    ],
+    "championships": ["Kalos Champion"],
+    "achievements": ["Kalos Champion", "Famous Actress"],
+    "signaturePokemon": [
+      {
+        "id": 682,
+        "name": "Spritzee",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+        "nickname": "Aromatisse",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Fairy-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Kalos region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Appeared in movies"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Leon",
+    "region": "galar",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Galar Champion",
+    "description": "The Champion of the Galar region who specializes in Normal-type Pokémon. He is a confident and skilled trainer who uses Charizard.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/56/Leon_SWSH_anime.png/250px-Leon_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "gymBadges": [
+      "Grass Badge",
+      "Fire Badge",
+      "Water Badge",
+      "Fairy Badge",
+      "Fighting Badge",
+      "Rock Badge",
+      "Dark Badge",
+      "Dragon Badge"
+    ],
+    "championships": ["Galar Champion"],
+    "achievements": ["Galar Champion", "Charizard Master"],
+    "signaturePokemon": [
+      {
+        "id": 6,
+        "name": "Charizard",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "nickname": "Charizard",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Normal-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Galar region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Used Charizard effectively"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Nemona",
+    "region": "paldea",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Paldea Champion",
+    "description": "The Champion of the Paldea region who specializes in Grass-type Pokémon. She is a confident and skilled trainer who uses her Pokémon effectively.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Nemona_SV_anime.png/250px-Nemona_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+    "gymBadges": [
+      "Fire Badge",
+      "Grass Badge",
+      "Electric Badge",
+      "Psychic Badge",
+      "Rock Badge",
+      "Ice Badge",
+      "Ground Badge",
+      "Water Badge"
+    ],
+    "championships": ["Paldea Champion"],
+    "achievements": ["Paldea Champion", "Grass-type Master"],
+    "signaturePokemon": [
+      {
+        "id": 906,
+        "name": "Sprigatito",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+        "nickname": "Meowscarada",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Grass-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Paldea region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Used Grass-types effectively"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Steven Stone",
+    "region": "hoenn",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Hoenn Champion",
+    "description": "The Champion of the Hoenn region who specializes in Steel-type Pokémon. He is also a skilled Pokémon Coordinator and a member of the Devon Corporation.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Steven_Stone_RS_anime.png/250px-Steven_Stone_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": ["Hoenn Champion"],
+    "achievements": [
+      "Hoenn Champion",
+      "Pokémon Coordinator",
+      "Devon Corp. Member"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 306,
+        "name": "Aggron",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
+        "nickname": "Metagross",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Steel-types"
+      },
+      {
+        "year": "After journey",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Hoenn region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Won Contests"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Wallace",
+    "region": "hoenn",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Hoenn Champion",
+    "description": "The Champion of the Hoenn region who specializes in Water-type Pokémon. He is also a former Gym Leader and Pokémon Coordinator.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7a/Wallace_RS_anime.png/250px-Wallace_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": ["Hoenn Champion"],
+    "achievements": ["Water-type Specialist", "Pokémon Coordinator"],
+    "signaturePokemon": [
+      {
+        "id": 350,
+        "name": "Milotic",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+        "nickname": "Milotic",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Sootopolis Gym Leader",
+        "description": "Managed Water-type Gym"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Hoenn region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Won Contests"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Alder",
+    "region": "unova",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Unova Champion",
+    "description": "The Champion of the Unova region who specializes in Normal-type Pokémon. He is a traveling champion who seeks strong trainers to battle.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0e/Alder_BW_anime.png/250px-Alder_BW_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+    "gymBadges": [
+      "Trio Badge",
+      "Basic Badge",
+      "Insect Badge",
+      "Bolt Badge",
+      "Quake Badge",
+      "Jet Badge",
+      "Freeze Badge",
+      "Legend Badge"
+    ],
+    "championships": ["Unova Champion"],
+    "achievements": ["Unova Champion", "Traveling Champion"],
+    "signaturePokemon": [
+      {
+        "id": 500,
+        "name": "Snivy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+        "nickname": "Serperior",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Normal-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Unova region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Traveled to find strong trainers"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Red",
+    "region": "kanto",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Kanto Champion",
+    "description": "The silent protagonist of the original Red/Blue games who became the Champion of the Kanto region and is considered a legendary trainer.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/61/Red_AG_anime.png/250px-Red_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": ["Kanto Champion", "Pokémon League Champion"],
+    "achievements": [
+      "Kanto Champion",
+      "Pokémon League Champion",
+      "Legendary Trainer"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 6,
+        "name": "Charizard",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "nickname": "Charizard",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Early journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Charmander"
+      },
+      {
+        "year": "After journey",
+        "position": "Pokémon Champion",
+        "description": "Defeated the Elite Four and became Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated the Elite Four",
+      "Became Pokémon Champion",
+      "Captured Legendary Birds"
+    ]
+  }
+]

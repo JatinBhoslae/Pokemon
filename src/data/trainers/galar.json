@@ -1,0 +1,745 @@
+[
+  {
+    "id": 129,
+    "name": "Hop",
+    "region": "galar",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Postwick who dreams of becoming a Pokémon Master. He travels with his starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/85/Hop_SWSH_anime.png/250px-Hop_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png",
+    "gymBadges": [
+      "Grass Badge",
+      "Fire Badge",
+      "Water Badge",
+      "Fairy Badge",
+      "Fighting Badge",
+      "Rock Badge",
+      "Dark Badge",
+      "Dragon Badge"
+    ],
+    "championships": ["Galar Champion"],
+    "achievements": ["Pokémon Champion", "Master of Galar"],
+    "signaturePokemon": [
+      {
+        "id": 810,
+        "name": "Grookey",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png",
+        "nickname": "Rillaboom",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Postwick"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Galar region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Pokémon Champion",
+        "description": "Challenged the Gym Leaders and became Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Yell",
+      "Won Galar League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Marnie",
+    "region": "galar",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Spikemuth who travels with her friends to catch Pokémon and win battles. She has a passion for Dark-type Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/75/Marnie_SWSH_anime.png/250px-Marnie_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+    "gymBadges": [
+      "Grass Badge",
+      "Fire Badge",
+      "Water Badge",
+      "Fairy Badge",
+      "Fighting Badge",
+      "Rock Badge",
+      "Dark Badge",
+      "Dragon Badge"
+    ],
+    "championships": [],
+    "achievements": ["Dark-type Specialist", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 827,
+        "name": "Greedent",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+        "nickname": "Greedent",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Spikemuth"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Galar region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Traveled with friends",
+      "Defeated Gym Leaders",
+      "Used Dark-types effectively"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Bede",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Turffield who specializes in Psychic-type Pokémon. He is focused and determined in his journey.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5d/Bede_SWSH_anime.png/250px-Bede_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png",
+    "gymBadges": [
+      "Grass Badge",
+      "Fire Badge",
+      "Water Badge",
+      "Fairy Badge",
+      "Fighting Badge",
+      "Rock Badge",
+      "Dark Badge",
+      "Dragon Badge"
+    ],
+    "championships": [],
+    "achievements": ["Psychic-type Specialist", "Focused Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 824,
+        "name": "Rookidee",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png",
+        "nickname": "Corviknight",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Turffield"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Galar region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Battled against rivals",
+      "Defeated Gym Leaders",
+      "Used Psychic-types effectively"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Milo",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Hammerlocke City Gym Leader",
+    "description": "The Gym Leader of Hammerlocke City who specializes in Fairy-type Pokémon. He is also a chef who creates beautiful dishes.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9e/Milo_SWSH_anime.png/250px-Milo_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
+    "gymBadges": ["Fairy Badge"],
+    "championships": [],
+    "achievements": ["Fairy-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 856,
+        "name": "Hatenna",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
+        "nickname": "Hatterene",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Hammerlocke City Gym Leader",
+        "description": "Took over the Fairy-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Hammerlocke Gym",
+      "Battled against Fairy-type specialists"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Nessa",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Stow-on-Side City Gym Leader",
+    "description": "The Gym Leader of Stow-on-Side City who specializes in Water-type Pokémon. She is also a model who appears in magazines.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2e/Nessa_SWSH_anime.png/250px-Nessa_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png",
+    "gymBadges": ["Water Badge"],
+    "championships": [],
+    "achievements": ["Water-type Specialist", "Model"],
+    "signaturePokemon": [
+      {
+        "id": 849,
+        "name": "Cramorant",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png",
+        "nickname": "Cramorant",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Stow-on-Side City Gym Leader",
+        "description": "Took over the Water-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Stow-on-Side Gym",
+      "Battled against Water-type specialists"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Kabu",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Circhester City Gym Leader",
+    "description": "The Gym Leader of Circhester City who specializes in Fire-type Pokémon. He is also a chef who creates spicy dishes.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/19/Kabu_SWSH_anime.png/250px-Kabu_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+    "gymBadges": ["Fire Badge"],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 815,
+        "name": "Scorbunny",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+        "nickname": "Cinderace",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Circhester City Gym Leader",
+        "description": "Took over the Fire-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Circhester Gym",
+      "Battled against Fire-type specialists"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Bea",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Motostoke City Gym Leader",
+    "description": "The Gym Leader of Motostoke City who specializes in Fighting-type Pokémon. She is also a martial artist who practices yoga.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7e/Bea_SWSH_anime.png/250px-Bea_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
+    "gymBadges": ["Fighting Badge"],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Martial Artist"],
+    "signaturePokemon": [
+      {
+        "id": 852,
+        "name": "Falinks",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
+        "nickname": "Falinks",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Motostoke City Gym Leader",
+        "description": "Took over the Fighting-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Motostoke Gym",
+      "Battled against Fighting-type specialists"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Allister",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Ballonlea City Gym Leader",
+    "description": "The Gym Leader of Ballonlea City who specializes in Ghost-type Pokémon. He is also a ghost story enthusiast who loves scary tales.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1d/Allister_SWSH_anime.png/250px-Allister_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
+    "gymBadges": ["Dark Badge"],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Ghost Story Enthusiast"],
+    "signaturePokemon": [
+      {
+        "id": 829,
+        "name": "Grimmsnarl",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
+        "nickname": "Grimmsnarl",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Ballonlea City Gym Leader",
+        "description": "Took over the Ghost-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Ballonlea Gym",
+      "Battled against Ghost-type specialists"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Gordie",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Crown Tundra Gym Leader",
+    "description": "The Gym Leader of Crown Tundra who specializes in Ice-type Pokémon. He is also a mountaineer who explores icy regions.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/88/Gordie_SWSH_anime.png/250px-Gordie_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+    "gymBadges": ["Dragon Badge"],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Mountaineer"],
+    "signaturePokemon": [
+      {
+        "id": 833,
+        "name": "Eiscue",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+        "nickname": "Eiscue",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Crown Tundra Gym Leader",
+        "description": "Took over the Ice-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Crown Tundra Gym",
+      "Battled against Ice-type specialists"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Melony",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Route 9 Gym Leader",
+    "description": "The Gym Leader of Route 9 who specializes in Ice-type Pokémon. She is also a health enthusiast who runs fitness programs.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/88/Melony_SWSH_anime.png/250px-Melony_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+    "gymBadges": ["Dragon Badge"],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Health Enthusiast"],
+    "signaturePokemon": [
+      {
+        "id": 833,
+        "name": "Eiscue",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+        "nickname": "Eiscue",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Route 9 Gym Leader",
+        "description": "Took over the Ice-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Route 9 Gym",
+      "Battled against Ice-type specialists"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Piers",
+    "region": "galar",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Spikemuth City Gym Leader",
+    "description": "The Gym Leader of Spikemuth City who specializes in Dark-type Pokémon. He is also the leader of Team Yell.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6d/Piers_SWSH_anime.png/250px-Piers_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+    "gymBadges": ["Dark Badge"],
+    "championships": [],
+    "achievements": ["Dark-type Specialist", "Team Yell Leader"],
+    "signaturePokemon": [
+      {
+        "id": 826,
+        "name": "Thievul",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+        "nickname": "Thievul",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Spikemuth City Gym Leader",
+        "description": "Took over the Dark-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Spikemuth Gym",
+      "Battled against Dark-type specialists"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Leon",
+    "region": "galar",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Galar Champion",
+    "description": "The Champion of the Galar region who specializes in Normal-type Pokémon. He is a confident and skilled trainer who uses Charizard.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/56/Leon_SWSH_anime.png/250px-Leon_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "gymBadges": [
+      "Grass Badge",
+      "Fire Badge",
+      "Water Badge",
+      "Fairy Badge",
+      "Fighting Badge",
+      "Rock Badge",
+      "Dark Badge",
+      "Dragon Badge"
+    ],
+    "championships": ["Galar Champion"],
+    "achievements": ["Galar Champion", "Charizard Master"],
+    "signaturePokemon": [
+      {
+        "id": 6,
+        "name": "Charizard",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "nickname": "Charizard",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Normal-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Galar region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Used Charizard effectively"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Rose",
+    "region": "galar",
+    "role": "Villain",
+    "trainerClass": "Team Yell Boss",
+    "title": "Team Yell Boss",
+    "description": "The leader of Team Yell who aims to create chaos and excitement in the Galar region. She is energetic and chaotic.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3b/Rose_SWSH_anime.png/250px-Rose_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Yell Boss", "Chaos Creator"],
+    "signaturePokemon": [
+      {
+        "id": 826,
+        "name": "Thievul",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+        "nickname": "Thievul",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Yell Boss",
+        "description": "Started Team Yell organization"
+      }
+    ],
+    "notableBattles": [
+      "Caused chaos in Galar",
+      "Schemed against heroes",
+      "Defeated by trainers"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Oleana",
+    "region": "galar",
+    "role": "Villain",
+    "trainerClass": "Team Yell Admin",
+    "title": "Team Yell Admin",
+    "description": "A member of Team Yell's administration who uses Poison-type Pokémon. She is known for her elegant appearance and cunning tactics.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1c/Oleana_SWSH_anime.png/250px-Oleana_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Yell Admin", "Poison-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 848,
+        "name": "Toxtricity",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png",
+        "nickname": "Toxtricity",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Yell Admin",
+        "description": "Joined Team Yell organization"
+      }
+    ],
+    "notableBattles": ["Schemed for Team Yell", "Used Poison-types in battles"]
+  },
+  {
+    "id": 143,
+    "name": "Marnie",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Dark-type Pokémon. She is the sister of the Gym Leader Piers.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/75/Marnie_SWSH_anime.png/250px-Marnie_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Dark-type Specialist", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 827,
+        "name": "Greedent",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+        "nickname": "Greedent",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Dark-types effectively"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Gordie",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Rock-type Pokémon. He is a mountaineer who explores icy regions.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/88/Gordie_SWSH_anime.png/250px-Gordie_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Rock-type Specialist", "Mountaineer"],
+    "signaturePokemon": [
+      {
+        "id": 833,
+        "name": "Eiscue",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+        "nickname": "Eiscue",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Rock-types effectively"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Nessa",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Water-type Pokémon. She is also a model who appears in magazines.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2e/Nessa_SWSH_anime.png/250px-Nessa_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Water-type Specialist", "Model"],
+    "signaturePokemon": [
+      {
+        "id": 849,
+        "name": "Cramorant",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png",
+        "nickname": "Cramorant",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Water-types effectively"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Kabu",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Fire-type Pokémon. He is also a chef who creates spicy dishes.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/19/Kabu_SWSH_anime.png/250px-Kabu_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 815,
+        "name": "Scorbunny",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+        "nickname": "Cinderace",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Fire-types effectively"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Bea",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Fighting-type Pokémon. She is also a martial artist who practices yoga.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7e/Bea_SWSH_anime.png/250px-Bea_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Martial Artist"],
+    "signaturePokemon": [
+      {
+        "id": 852,
+        "name": "Falinks",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
+        "nickname": "Falinks",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Fighting-types effectively"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Allister",
+    "region": "galar",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Ghost-type Pokémon. He is also a ghost story enthusiast who loves scary tales.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1d/Allister_SWSH_anime.png/250px-Allister_SWSH_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Ghost Story Enthusiast"],
+    "signaturePokemon": [
+      {
+        "id": 829,
+        "name": "Grimmsnarl",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
+        "nickname": "Grimmsnarl",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Ghost-types effectively"
+    ]
+  }
+]

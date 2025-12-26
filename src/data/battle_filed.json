@@ -1,0 +1,161 @@
+{
+  "battle_terrains": [
+    {
+      "id": "electric_terrain",
+      "name": "Electric Terrain",
+      "type": "Terrain",
+      "image": "https://archives.bulbagarden.net/media/upload/0/0d/Electric_Terrain_IX.png",
+      "effects": {
+        "boost_type": "Electric",
+        "boost": "30%",
+        "prevents_sleep": true
+      }
+    },
+    {
+      "id": "grassy_terrain",
+      "name": "Grassy Terrain",
+      "type": "Terrain",
+      "image": "https://archives.bulbagarden.net/media/upload/7/74/Grass_Terrain_DPPtHGSS.png",
+      "effects": {
+        "boost_type": "Grass",
+        "boost": "30%",
+        "heal_each_turn": "1/16 HP",
+        "reduce_earthquake": true
+      }
+    },
+    {
+      "id": "misty_terrain",
+      "name": "Misty Terrain",
+      "type": "Terrain",
+      "image": "https://archives.bulbagarden.net/media/upload/5/5e/Misty_Terrain_IX.png",
+      "effects": {
+        "dragon_damage_reduction": "50%",
+        "prevents_status": true
+      }
+    },
+    {
+      "id": "psychic_terrain",
+      "name": "Psychic Terrain",
+      "type": "Terrain",
+      "image": "https://archives.bulbagarden.net/media/upload/8/87/Psychic_Terrain_IX.png",
+      "effects": {
+        "boost_type": "Psychic",
+        "boost": "30%",
+        "blocks_priority": true
+      }
+    },
+    {
+      "id": "rain",
+      "name": "Rain",
+      "type": "Weather",
+      "image": "https://archives.bulbagarden.net/media/upload/f/f7/Water_Battle_Environment.png",
+      "effects": {
+        "boost_type": "Water",
+        "boost": "50%",
+        "weaken_type": "Fire"
+      }
+    },
+    {
+      "id": "sunny",
+      "name": "Harsh Sunlight",
+      "type": "Weather",
+      "image": "https://archives.bulbagarden.net/media/upload/3/32/Sunny_Battle_Environment.png",
+      "effects": {
+        "boost_type": "Fire",
+        "boost": "50%",
+        "weaken_type": "Water"
+      }
+    },
+    {
+      "id": "sandstorm",
+      "name": "Sandstorm",
+      "type": "Weather",
+      "image": "https://archives.bulbagarden.net/media/upload/8/8c/Sandstorm_Battle_Environment.png",
+      "effects": {
+        "chip_damage": "1/16 HP",
+        "immune_types": ["Rock", "Ground", "Steel"]
+      }
+    },
+    {
+      "id": "snow",
+      "name": "Snow / Hail",
+      "type": "Weather",
+      "image": "https://archives.bulbagarden.net/media/upload/1/10/Snow_Battle_Environment.png",
+      "effects": {
+        "chip_damage": "1/16 HP",
+        "immune_type": "Ice"
+      }
+    },
+    {
+      "id": "lava_field",
+      "name": "Lava Field",
+      "type": "Special Field",
+      "image": "https://archives.bulbagarden.net/media/upload/5/5f/Lava_Battlefield.png",
+      "effects": {
+        "boost_type": "Fire",
+        "field_damage_non_fire": "1/8 HP"
+      }
+    },
+    {
+      "id": "water_field",
+      "name": "Water Field",
+      "type": "Special Field",
+      "image": "https://archives.bulbagarden.net/media/upload/2/2f/Waterfield_anime.png",
+      "effects": {
+        "boost_type": "Water",
+        "electric_spread": true
+      }
+    },
+    {
+      "id": "rocky_field",
+      "name": "Rocky Field",
+      "type": "Special Field",
+      "image": "https://archives.bulbagarden.net/media/upload/d/d8/Rock_Field.png",
+      "effects": {
+        "boost_type": "Rock",
+        "boost": "20%"
+      }
+    },
+    {
+      "id": "forest_field",
+      "name": "Forest Field",
+      "type": "Special Field",
+      "image": "https://archives.bulbagarden.net/media/upload/7/7a/Forest_Battlefield.png",
+      "effects": {
+        "boost_type": "Grass",
+        "boost": "20%",
+        "fire_spread": true
+      }
+    },
+    {
+      "id": "ice_field",
+      "name": "Ice Field",
+      "type": "Special Field",
+      "image": "https://archives.bulbagarden.net/media/upload/6/69/Ice_Battlefield.png",
+      "effects": {
+        "boost_type": "Ice",
+        "chance_to_freeze": "Increased"
+      }
+    },
+    {
+      "id": "cave_field",
+      "name": "Cave Field",
+      "type": "Special Field",
+      "image": "https://archives.bulbagarden.net/media/upload/b/b2/Cave_Battlefield.png",
+      "effects": {
+        "boost_type": "Rock",
+        "boost": "15%"
+      }
+    },
+    {
+      "id": "sky_field",
+      "name": "Sky Field",
+      "type": "Special Field",
+      "image": "https://archives.bulbagarden.net/media/upload/4/4e/Sky_Battlefield.png",
+      "effects": {
+        "boost_type": "Flying",
+        "boost": "20%"
+      }
+    }
+  ]
+}

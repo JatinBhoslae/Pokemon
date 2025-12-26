@@ -1,0 +1,778 @@
+[
+  {
+    "id": 29,
+    "name": "Brendan",
+    "region": "hoenn",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Littleroot Town who dreams of becoming a Pokémon Master. He travels with his starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/26/Brendan_RS_anime.png/250px-Brendan_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": ["Hoenn League Champion"],
+    "achievements": ["Pokémon League Champion", "Master of Hoenn"],
+    "signaturePokemon": [
+      {
+        "id": 152,
+        "name": "Treecko",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+        "nickname": "Treecko",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Littleroot Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Hoenn region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Elite Four Aspirant",
+        "description": "Challenged the Elite Four and Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Magma",
+      "Won Hoenn League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "May",
+    "region": "hoenn",
+    "role": "Pokémon Coordinator",
+    "trainerClass": "Pokémon Coordinator",
+    "title": "Pokémon Coordinator",
+    "description": "A Pokémon Coordinator from Littleroot Town who dreams of becoming a Top Coordinator. She travels with her friends to participate in Pokémon Contests and battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/80/May_RS_anime.png/250px-May_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": ["Grand Festival Winner"],
+    "achievements": ["Top Coordinator", "Pokémon Contests Winner"],
+    "signaturePokemon": [
+      {
+        "id": 155,
+        "name": "Torchic",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+        "nickname": "Torchic",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Coordinator",
+        "description": "Started journey from Littleroot Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Contest Participant",
+        "description": "Traveled across Hoenn region to participate in Contests"
+      },
+      {
+        "year": "Year 2",
+        "position": "Top Coordinator",
+        "description": "Won multiple Contests and Grand Festival"
+      }
+    ],
+    "notableBattles": [
+      "Won Grand Festival",
+      "Participated in Contests",
+      "Traveled with friends"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Wally",
+    "region": "hoenn",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A young Pokémon Trainer who starts his journey with a Ralts. Despite his illness, he becomes a skilled trainer and grows stronger throughout his journey.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5c/Wally_RS_anime.png/250px-Wally_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": [],
+    "achievements": ["Overcame Illness", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 280,
+        "name": "Ralts",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+        "nickname": "Ralts",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey despite illness"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Hoenn region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Gym Leaders",
+      "Overcame his illness",
+      "Grew stronger"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Roxanne",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Rustboro City Gym Leader",
+    "description": "The Gym Leader of Rustboro City who specializes in Rock-type Pokémon. She is also a Pokémon Trainer and a teacher who studies Pokémon and geology.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4a/Roxanne_RS_anime.png/250px-Roxanne_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
+    "gymBadges": ["Stone Badge"],
+    "championships": [],
+    "achievements": ["Rock-type Specialist", "Pokémon Teacher"],
+    "signaturePokemon": [
+      {
+        "id": 334,
+        "name": "Altaria",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
+        "nickname": "Geodude",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Rustboro City Gym Leader",
+        "description": "Took over the Rock-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Rustboro Gym",
+      "Battled against Rock-type specialists"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Brawly",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Dewford Town Gym Leader",
+    "description": "The Gym Leader of Dewford Town who specializes in Fighting-type Pokémon. He is a strong and proud martial artist who uses his skills with his Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/87/Brawly_RS_anime.png/250px-Brawly_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
+    "gymBadges": ["Knuckle Badge"],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Martial Artist"],
+    "signaturePokemon": [
+      {
+        "id": 296,
+        "name": "Makuhita",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
+        "nickname": "Makuhita",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Dewford Town Gym Leader",
+        "description": "Took over the Fighting-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Dewford Gym",
+      "Battled against Fighting-type specialists"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Wattson",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Mauville City Gym Leader",
+    "description": "The Gym Leader of Mauville City who specializes in Electric-type Pokémon. He is an elderly trainer who uses his Electric-types to generate power for the city.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/07/Wattson_RS_anime.png/250px-Wattson_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "gymBadges": ["Dynamo Badge"],
+    "championships": [],
+    "achievements": ["Electric-type Specialist", "Power Generator"],
+    "signaturePokemon": [
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "nickname": "Voltorb",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Mauville City Gym Leader",
+        "description": "Took over the Electric-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Mauville Gym",
+      "Battled against Electric-type specialists"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Flannery",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Lavaridge Town Gym Leader",
+    "description": "The Gym Leader of Lavaridge Town who specializes in Fire-type Pokémon. She is a young and energetic trainer who inherited the gym from her grandmother.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Flannery_RS_anime.png/250px-Flannery_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "gymBadges": ["Heat Badge"],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Energetic Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 58,
+        "name": "Growlithe",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+        "nickname": "Growlithe",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Lavaridge Town Gym Leader",
+        "description": "Took over the Fire-type Gym from grandmother"
+      }
+    ],
+    "notableBattles": [
+      "Defended Lavaridge Gym",
+      "Battled against Fire-type specialists"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Norman",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Petalburg City Gym Leader",
+    "description": "The Gym Leader of Petalburg City who specializes in Normal-type Pokémon. He is also the father of May and uses his experience to train trainers.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/79/Norman_RS_anime.png/250px-Norman_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
+    "gymBadges": ["Balance Badge"],
+    "championships": [],
+    "achievements": ["Normal-type Specialist", "Supportive Father"],
+    "signaturePokemon": [
+      {
+        "id": 289,
+        "name": "Slaking",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
+        "nickname": "Slaking",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Petalburg City Gym Leader",
+        "description": "Took over the Normal-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Petalburg Gym",
+      "Battled against Normal-type specialists"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Winona",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Fortree City Gym Leader",
+    "description": "The Gym Leader of Fortree City who specializes in Flying-type Pokémon. She is a graceful and elegant trainer who uses her Flying-types with grace.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3e/Winona_RS_anime.png/250px-Winona_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
+    "gymBadges": ["Feather Badge"],
+    "championships": [],
+    "achievements": ["Flying-type Specialist", "Graceful Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 177,
+        "name": "Natu",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
+        "nickname": "Altaria",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Fortree City Gym Leader",
+        "description": "Took over the Flying-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Fortree Gym",
+      "Battled against Flying-type specialists"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Tate & Liza",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Mossdeep City Gym Leader",
+    "description": "The Gym Leader of Mossdeep City who specialize in Psychic-type Pokémon. They are twin siblings who work together using their psychic powers.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1d/Tate_and_Liza_RS_anime.png/250px-Tate_and_Liza_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
+    "gymBadges": ["Mind Badge"],
+    "championships": [],
+    "achievements": ["Psychic-type Specialists", "Twin Trainers"],
+    "signaturePokemon": [
+      {
+        "id": 344,
+        "name": "Claydol",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
+        "nickname": "Claydol",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Mossdeep City Gym Leader",
+        "description": "Took over the Psychic-type Gym together"
+      }
+    ],
+    "notableBattles": [
+      "Defended Mossdeep Gym",
+      "Battled against Psychic-type specialists"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Juan",
+    "region": "hoenn",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Sootopolis City Gym Leader",
+    "description": "The Gym Leader of Sootopolis City who specializes in Water-type Pokémon. He is an elegant and graceful trainer who uses his Water-types with artistic flair.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/95/Juan_RS_anime.png/250px-Juan_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
+    "gymBadges": ["Rain Badge"],
+    "championships": [],
+    "achievements": ["Water-type Specialist", "Elegant Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 186,
+        "name": "Politoed",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
+        "nickname": "Luvdisc",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Sootopolis City Gym Leader",
+        "description": "Took over the Water-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Sootopolis Gym",
+      "Battled against Water-type specialists"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Maxie",
+    "region": "hoenn",
+    "role": "Villain",
+    "trainerClass": "Team Magma Leader",
+    "title": "Team Magma Leader",
+    "description": "The leader of Team Magma who aims to expand the landmass of the world using the power of Groudon. He is a passionate and determined villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4e/Maxie_RS_anime.png/250px-Maxie_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Magma Leader", "Land Expansion Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 383,
+        "name": "Groudon",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
+        "nickname": "Groudon",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Magma Leader",
+        "description": "Started Team Magma organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Groudon",
+      "Expanded landmass",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Archie",
+    "region": "hoenn",
+    "role": "Villain",
+    "trainerClass": "Team Aqua Leader",
+    "title": "Team Aqua Leader",
+    "description": "The leader of Team Aqua who aims to expand the oceans of the world using the power of Kyogre. He is a calm and calculating villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/17/Archie_RS_anime.png/250px-Archie_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Aqua Leader", "Ocean Expansion Advocate"],
+    "signaturePokemon": [
+      {
+        "id": 382,
+        "name": "Kyogre",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+        "nickname": "Kyogre",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Aqua Leader",
+        "description": "Started Team Aqua organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Kyogre",
+      "Expanded oceans",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Steven Stone",
+    "region": "hoenn",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Hoenn Champion",
+    "description": "The Champion of the Hoenn region who specializes in Steel-type Pokémon. He is also a skilled Pokémon Coordinator and a member of the Devon Corporation.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Steven_Stone_RS_anime.png/250px-Steven_Stone_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": ["Hoenn Champion"],
+    "achievements": [
+      "Hoenn Champion",
+      "Pokémon Coordinator",
+      "Devon Corp. Member"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 306,
+        "name": "Aggron",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
+        "nickname": "Metagross",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Steel-types"
+      },
+      {
+        "year": "After journey",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Hoenn region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Won Contests"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Wallace",
+    "region": "hoenn",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Water-type Pokémon. He is also a former Gym Leader and Pokémon Coordinator.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7a/Wallace_RS_anime.png/250px-Wallace_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": [
+      "Water-type Specialist",
+      "Elite Four Member",
+      "Pokémon Coordinator"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 350,
+        "name": "Milotic",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+        "nickname": "Milotic",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Sootopolis Gym Leader",
+        "description": "Managed Water-type Gym"
+      },
+      {
+        "year": "After",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Tucker",
+    "region": "hoenn",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who challenges the Champion. He is known for his strength and determination.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3a/Tucker_RS_anime.png/250px-Tucker_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Skilled Trainer", "Champion Challenger"],
+    "signaturePokemon": [
+      {
+        "id": 380,
+        "name": "Latias",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
+        "nickname": "Latias",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": ["Challenged Champion", "Defeated other trainers"]
+  },
+  {
+    "id": 45,
+    "name": "Cynthia",
+    "region": "hoenn",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who has experience in multiple regions. She is known for her strength and knowledge of Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Cynthia_DP_anime.png/250px-Cynthia_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+    "gymBadges": [],
+    "championships": ["Sinnoh Champion"],
+    "achievements": ["Sinnoh Champion", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 448,
+        "name": "Lucario",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+        "nickname": "Garchomp",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Researcher",
+        "description": "Started researching Pokémon"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Sinnoh region"
+      }
+    ],
+    "notableBattles": ["Became Champion", "Defeated strong opponents"]
+  },
+  {
+    "id": 46,
+    "name": "Professor Birch",
+    "region": "hoenn",
+    "role": "Professor",
+    "trainerClass": "Pokémon Professor",
+    "title": "Pokémon Professor",
+    "description": "A Pokémon Professor who studies Pokémon and their relationship with humans. He gave the player their first Pokémon and continues to research Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4e/Professor_Birch_RS_anime.png/250px-Professor_Birch_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Pokémon Researcher", "Pokémon Professor"],
+    "signaturePokemon": [
+      {
+        "id": 252,
+        "name": "Treecko",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
+        "nickname": "Treecko",
+        "role": "Research Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Professor",
+        "description": "Started Pokémon research"
+      }
+    ],
+    "notableBattles": ["Trained many researchers", "Advanced Pokémon science"]
+  },
+  {
+    "id": 47,
+    "name": "Rival Wally",
+    "region": "hoenn",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A young Pokémon Trainer who starts his journey with a Ralts. Despite his illness, he becomes a skilled trainer and grows stronger throughout his journey.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5c/Wally_RS_anime.png/250px-Wally_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+    "gymBadges": [
+      "Stone Badge",
+      "Knuckle Badge",
+      "Dynamo Badge",
+      "Heat Badge",
+      "Balance Badge",
+      "Feather Badge",
+      "Mind Badge",
+      "Rain Badge"
+    ],
+    "championships": [],
+    "achievements": ["Overcame Illness", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 280,
+        "name": "Ralts",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+        "nickname": "Ralts",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey despite illness"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Hoenn region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Gym Leaders",
+      "Overcame his illness",
+      "Grew stronger"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Elite Four Sidney",
+    "region": "hoenn",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Dark-type Pokémon. He is known for his confidence and uses his Dark-types to overwhelm opponents.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2a/Sidney_RS_anime.png/250px-Sidney_RS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Dark-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 261,
+        "name": "Poochyena",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
+        "nickname": "Absol",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  }
+]

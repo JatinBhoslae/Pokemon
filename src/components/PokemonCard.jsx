@@ -5,12 +5,13 @@ import { FaExpandArrowsAlt } from "react-icons/fa";
 export default function PokemonCard({ pokemon, onSelect }) {
   return (
     <li className="pokemon-card" onClick={() => onSelect(pokemon)}>
+      <span className="pokemon-id">#{String(pokemon.id).padStart(3, "0")}</span>
       <div className="card-overlay-icon">
         <FaExpandArrowsAlt />
       </div>
       <figure>
         <img
-          src={pokemon.sprites.other.dream_world.front_default}
+          src={pokemon.sprites.other.dream_world.front_default || pokemon.sprites.front_default}
           alt={pokemon.name}
           loading="lazy"
           width="150"

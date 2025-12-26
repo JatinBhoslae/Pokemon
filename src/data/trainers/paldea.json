@@ -1,0 +1,745 @@
+[
+  {
+    "id": 149,
+    "name": "Nemona",
+    "region": "paldea",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Mesagoza who dreams of becoming a Pokémon Master. She travels with her starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Nemona_SV_anime.png/250px-Nemona_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+    "gymBadges": [
+      "Fire Badge",
+      "Grass Badge",
+      "Electric Badge",
+      "Psychic Badge",
+      "Rock Badge",
+      "Ice Badge",
+      "Ground Badge",
+      "Water Badge"
+    ],
+    "championships": ["Paldea Champion"],
+    "achievements": ["Pokémon Champion", "Master of Paldea"],
+    "signaturePokemon": [
+      {
+        "id": 906,
+        "name": "Sprigatito",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+        "nickname": "Meowscarada",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Mesagoza"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Paldea region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Pokémon Champion",
+        "description": "Challenged the Gym Leaders and became Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Star",
+      "Won Paldea League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Arven",
+    "region": "paldea",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Paldea who has a passion for berries and Pokémon food. He travels with his friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8a/Arven_SV_anime.png/250px-Arven_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+    "gymBadges": [
+      "Fire Badge",
+      "Grass Badge",
+      "Electric Badge",
+      "Psychic Badge",
+      "Rock Badge",
+      "Ice Badge",
+      "Ground Badge",
+      "Water Badge"
+    ],
+    "championships": [],
+    "achievements": ["Berry Specialist", "Skilled Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 909,
+        "name": "Fuecoco",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+        "nickname": "Skeledirge",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey in Paldea"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Paldea region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Traveled with friends",
+      "Defeated Gym Leaders",
+      "Used berries effectively"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Kieran",
+    "region": "paldea",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A Pokémon Trainer from Paldea who specializes in Flying-type Pokémon. He is focused and determined in his journey.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6f/Kieran_SV_anime.png/250px-Kieran_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png",
+    "gymBadges": [
+      "Fire Badge",
+      "Grass Badge",
+      "Electric Badge",
+      "Psychic Badge",
+      "Rock Badge",
+      "Ice Badge",
+      "Ground Badge",
+      "Water Badge"
+    ],
+    "championships": [],
+    "achievements": ["Flying-type Specialist", "Focused Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 912,
+        "name": "Quaxly",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png",
+        "nickname": "Quaquaval",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey in Paldea"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Paldea region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Battled against rivals",
+      "Defeated Gym Leaders",
+      "Used Flying-types effectively"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Rika",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Cortondo Gym Leader",
+    "description": "The Gym Leader of Cortondo who specializes in Electric-type Pokémon. She is also a researcher who studies electricity and Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4d/Rika_SV_anime.png/250px-Rika_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png",
+    "gymBadges": ["Electric Badge"],
+    "championships": [],
+    "achievements": ["Electric-type Specialist", "Researcher"],
+    "signaturePokemon": [
+      {
+        "id": 920,
+        "name": "Dondozo",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png",
+        "nickname": "Dondozo",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Cortondo Gym Leader",
+        "description": "Took over the Electric-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Cortondo Gym",
+      "Battled against Electric-type specialists"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Iono",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Levincia City Gym Leader",
+    "description": "The Gym Leader of Levincia City who specializes in Electric-type Pokémon. She is also a DJ who creates music with her Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5f/Iono_SV_anime.png/250px-Iono_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png",
+    "gymBadges": ["Electric Badge"],
+    "championships": [],
+    "achievements": ["Electric-type Specialist", "DJ"],
+    "signaturePokemon": [
+      {
+        "id": 915,
+        "name": "Tadbulb",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png",
+        "nickname": "Bellibolt",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Levincia City Gym Leader",
+        "description": "Took over the Electric-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Levincia Gym",
+      "Battled against Electric-type specialists"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Kofu",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Artazon City Gym Leader",
+    "description": "The Gym Leader of Artazon City who specializes in Bug-type Pokémon. He is also a craftsman who creates art with his Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9d/Kofu_SV_anime.png/250px-Kofu_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
+    "gymBadges": ["Grass Badge"],
+    "championships": [],
+    "achievements": ["Bug-type Specialist", "Craftsman"],
+    "signaturePokemon": [
+      {
+        "id": 916,
+        "name": "Maschiff",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
+        "nickname": "Mabosstiff",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Artazon City Gym Leader",
+        "description": "Took over the Bug-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Artazon Gym",
+      "Battled against Bug-type specialists"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Larry",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Cascarrafa City Gym Leader",
+    "description": "The Gym Leader of Cascarrafa City who specializes in Water-type Pokémon. He is also a swimmer who practices with his Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2c/Larry_SV_anime.png/250px-Larry_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
+    "gymBadges": ["Water Badge"],
+    "championships": [],
+    "achievements": ["Water-type Specialist", "Swimmer"],
+    "signaturePokemon": [
+      {
+        "id": 910,
+        "name": "Frigibax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
+        "nickname": "Baxcalibur",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Cascarrafa City Gym Leader",
+        "description": "Took over the Water-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Cascarrafa Gym",
+      "Battled against Water-type specialists"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Ryme",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Medali City Gym Leader",
+    "description": "The Gym Leader of Medali City who specializes in Ghost-type Pokémon. She is also a rapper who creates music with her Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7d/Ryme_SV_anime.png/250px-Ryme_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
+    "gymBadges": ["Psychic Badge"],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Rapper"],
+    "signaturePokemon": [
+      {
+        "id": 917,
+        "name": "Shroodle",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
+        "nickname": "Grafaiai",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Medali City Gym Leader",
+        "description": "Took over the Ghost-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Medali Gym",
+      "Battled against Ghost-type specialists"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Grusha",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Montenevera City Gym Leader",
+    "description": "The Gym Leader of Montenevera City who specializes in Ice-type Pokémon. He is also a mountaineer who explores icy regions.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/85/Grusha_SV_anime.png/250px-Grusha_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
+    "gymBadges": ["Ice Badge"],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Mountaineer"],
+    "signaturePokemon": [
+      {
+        "id": 911,
+        "name": "Armarouge",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
+        "nickname": "Armarouge",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Montenevera City Gym Leader",
+        "description": "Took over the Ice-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Montenevera Gym",
+      "Battled against Ice-type specialists"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Tulip",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Porto Marinada City Gym Leader",
+    "description": "The Gym Leader of Porto Marinada City who specializes in Fire-type Pokémon. She is also a chef who creates spicy dishes.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Tulip_SV_anime.png/250px-Tulip_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+    "gymBadges": ["Fire Badge"],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 909,
+        "name": "Fuecoco",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+        "nickname": "Crocalor",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Porto Marinada City Gym Leader",
+        "description": "Took over the Fire-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Porto Marinada Gym",
+      "Battled against Fire-type specialists"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Geeta",
+    "region": "paldea",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Alfornada City Gym Leader",
+    "description": "The Gym Leader of Alfornada City who specializes in Psychic-type Pokémon. She is also a researcher who studies Pokémon and their abilities.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3a/Geeta_SV_anime.png/250px-Geeta_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
+    "gymBadges": ["Psychic Badge"],
+    "championships": [],
+    "achievements": ["Psychic-type Specialist", "Researcher"],
+    "signaturePokemon": [
+      {
+        "id": 914,
+        "name": "Varoom",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
+        "nickname": "Revavroom",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Alfornada City Gym Leader",
+        "description": "Took over the Psychic-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Alfornada Gym",
+      "Battled against Psychic-type specialists"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Nemona",
+    "region": "paldea",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Paldea Champion",
+    "description": "The Champion of the Paldea region who specializes in Grass-type Pokémon. She is a confident and skilled trainer who uses her Pokémon effectively.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Nemona_SV_anime.png/250px-Nemona_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+    "gymBadges": [
+      "Fire Badge",
+      "Grass Badge",
+      "Electric Badge",
+      "Psychic Badge",
+      "Rock Badge",
+      "Ice Badge",
+      "Ground Badge",
+      "Water Badge"
+    ],
+    "championships": ["Paldea Champion"],
+    "achievements": ["Paldea Champion", "Grass-type Master"],
+    "signaturePokemon": [
+      {
+        "id": 906,
+        "name": "Sprigatito",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+        "nickname": "Meowscarada",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Grass-types"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Paldea region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Used Grass-types effectively"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Clavell",
+    "region": "paldea",
+    "role": "Villain",
+    "trainerClass": "Team Star Leader",
+    "title": "Team Star Leader",
+    "description": "The leader of Team Star who aims to create chaos and excitement in the Paldea region. He is energetic and chaotic.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9a/Clavell_SV_anime.png/250px-Clavell_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Star Leader", "Chaos Creator"],
+    "signaturePokemon": [
+      {
+        "id": 906,
+        "name": "Sprigatito",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+        "nickname": "Meowscarada",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Star Leader",
+        "description": "Started Team Star organization"
+      }
+    ],
+    "notableBattles": [
+      "Caused chaos in Paldea",
+      "Schemed against heroes",
+      "Defeated by trainers"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Turo",
+    "region": "paldea",
+    "role": "Villain",
+    "trainerClass": "Team Star Admin",
+    "title": "Team Star Admin",
+    "description": "A member of Team Star's administration who uses Dark-type Pokémon. He is known for his loyalty to Clavell and his strategic mind.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/4/4c/Turo_SV_anime.png/250px-Turo_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Star Admin", "Dark-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 916,
+        "name": "Maschiff",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
+        "nickname": "Mabosstiff",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Star Admin",
+        "description": "Joined Team Star organization"
+      }
+    ],
+    "notableBattles": ["Schemed for Team Star", "Used Dark-types in battles"]
+  },
+  {
+    "id": 163,
+    "name": "Larry",
+    "region": "paldea",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Water-type Pokémon. He is also a swimmer who practices with his Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2c/Larry_SV_anime.png/250px-Larry_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Water-type Specialist", "Swimmer"],
+    "signaturePokemon": [
+      {
+        "id": 910,
+        "name": "Frigibax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
+        "nickname": "Baxcalibur",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Water-types effectively"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Ryme",
+    "region": "paldea",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Ghost-type Pokémon. She is also a rapper who creates music with her Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7d/Ryme_SV_anime.png/250px-Ryme_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Rapper"],
+    "signaturePokemon": [
+      {
+        "id": 917,
+        "name": "Shroodle",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
+        "nickname": "Grafaiai",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Ghost-types effectively"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Grusha",
+    "region": "paldea",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Ice-type Pokémon. He is also a mountaineer who explores icy regions.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/85/Grusha_SV_anime.png/250px-Grusha_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Mountaineer"],
+    "signaturePokemon": [
+      {
+        "id": 911,
+        "name": "Armarouge",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
+        "nickname": "Armarouge",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Ice-types effectively"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Tulip",
+    "region": "paldea",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Fire-type Pokémon. She is also a chef who creates spicy dishes.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6a/Tulip_SV_anime.png/250px-Tulip_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Chef"],
+    "signaturePokemon": [
+      {
+        "id": 909,
+        "name": "Fuecoco",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+        "nickname": "Crocalor",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Fire-types effectively"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Geeta",
+    "region": "paldea",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Psychic-type Pokémon. She is also a researcher who studies Pokémon and their abilities.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3a/Geeta_SV_anime.png/250px-Geeta_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Psychic-type Specialist", "Researcher"],
+    "signaturePokemon": [
+      {
+        "id": 914,
+        "name": "Varoom",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
+        "nickname": "Revavroom",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Psychic-types effectively"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Penny",
+    "region": "paldea",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A skilled Pokémon Trainer who specializes in Normal-type Pokémon. She is a researcher who studies Pokémon and their behavior.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8e/Penny_SV_anime.png/250px-Penny_SV_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Normal-type Specialist", "Researcher"],
+    "signaturePokemon": [
+      {
+        "id": 913,
+        "name": "Pawmi",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png",
+        "nickname": "Pawmot",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Trainer",
+        "description": "Started training Pokémon"
+      }
+    ],
+    "notableBattles": [
+      "Defeated strong opponents",
+      "Used Normal-types effectively"
+    ]
+  }
+]

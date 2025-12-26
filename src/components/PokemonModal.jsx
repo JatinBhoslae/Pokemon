@@ -136,7 +136,12 @@ export default function PokemonModal({ pokemon, onClose }) {
               </div>
             )}
           </div>
-          <h2 className="modal-title">{pokemon.name}</h2>
+          <h2 className="modal-title">
+            <span className="modal-id">
+              #{String(pokemon.id).padStart(3, "0")}
+            </span>{" "}
+            {pokemon.name}
+          </h2>
           <div className="modal-types">
             {pokemon.types.map((t) => (
               <span
@@ -184,7 +189,7 @@ export default function PokemonModal({ pokemon, onClose }) {
           <div className="moves-grid">
             {pokemon.moves.slice(0, 20).map((moveInfo) => (
               <button
-                key={moveInfo.move.name}        
+                key={moveInfo.move.name}
                 className="move-badge"
                 onClick={() => handleAttack(moveInfo.move.name)}
                 style={{

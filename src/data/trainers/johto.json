@@ -1,0 +1,342 @@
+[
+  {
+    "id": 20,
+    "name": "Ethan",
+    "region": "johto",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from New Bark Town who dreams of becoming a Pokémon Master. He travels with his starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/59/Ethan_HGSS_anime.png/250px-Ethan_HGSS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+    "gymBadges": [
+      "Zephyr Badge",
+      "Hive Badge",
+      "Plain Badge",
+      "Fog Badge",
+      "Storm Badge",
+      "Mineral Badge",
+      "Glacier Badge",
+      "Rising Badge"
+    ],
+    "championships": ["Johto League Champion"],
+    "achievements": ["Pokémon League Champion", "Master of Johto"],
+    "signaturePokemon": [
+      {
+        "id": 152,
+        "name": "Chikorita",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+        "nickname": "Chikorita",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from New Bark Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Johto region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Elite Four Aspirant",
+        "description": "Challenged the Elite Four and Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Rocket",
+      "Won Johto League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Lyra",
+    "region": "johto",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from New Bark Town who dreams of becoming a Pokémon Master. She travels with her starter Pokémon to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Lyra_HGSS_anime.png/250px-Lyra_HGSS_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+    "gymBadges": [
+      "Zephyr Badge",
+      "Hive Badge",
+      "Plain Badge",
+      "Fog Badge",
+      "Storm Badge",
+      "Mineral Badge",
+      "Glacier Badge",
+      "Rising Badge"
+    ],
+    "championships": ["Johto League Champion"],
+    "achievements": ["Pokémon League Champion", "Master of Johto"],
+    "signaturePokemon": [
+      {
+        "id": 155,
+        "name": "Cyndaquil",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+        "nickname": "Cyndaquil",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from New Bark Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Johto region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Elite Four Aspirant",
+        "description": "Challenged the Elite Four and Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Rocket",
+      "Won Johto League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Falkner",
+    "region": "johto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Violet City Gym Leader",
+    "description": "The Gym Leader of Violet City who specializes in Flying-type Pokémon. He is known for his pride in his Flying-type Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/39/Falkner_AG_anime.png/250px-Falkner_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+    "gymBadges": ["Zephyr Badge"],
+    "championships": [],
+    "achievements": ["Flying-type Specialist", "Top Gym Leader"],
+    "signaturePokemon": [
+      {
+        "id": 165,
+        "name": "Ledyba",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+        "nickname": "Ledyba",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Violet City Gym Leader",
+        "description": "Took over the Gym from his father"
+      }
+    ],
+    "notableBattles": ["Defended Violet Gym", "Battled against challengers"]
+  },
+  {
+    "id": 23,
+    "name": "Bugsy",
+    "region": "johto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Azalea Town Gym Leader",
+    "description": "The Gym Leader of Azalea Town who specializes in Bug-type Pokémon. He is known for his knowledge of Bug-type Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/06/Bugsy_AG_anime.png/250px-Bugsy_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+    "gymBadges": ["Hive Badge"],
+    "championships": [],
+    "achievements": ["Bug-type Specialist", "Top Gym Leader"],
+    "signaturePokemon": [
+      {
+        "id": 165,
+        "name": "Ledyba",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+        "nickname": "Ledyba",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Azalea Town Gym Leader",
+        "description": "Managed the Bug-type Gym"
+      }
+    ],
+    "notableBattles": ["Defended Azalea Gym", "Battled against challengers"]
+  },
+  {
+    "id": 24,
+    "name": "Whitney",
+    "region": "johto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Goldenrod City Gym Leader",
+    "description": "The Gym Leader of Goldenrod City who specializes in Normal-type Pokémon. She is known for her cheerful personality and uses Normal-type Pokémon in battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9f/Whitney_AG_anime.png/250px-Whitney_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "gymBadges": ["Plain Badge"],
+    "championships": [],
+    "achievements": ["Normal-type Specialist", "Cheerful Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 39,
+        "name": "Jigglypuff",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "nickname": "Jigglypuff",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Goldenrod City Gym Leader",
+        "description": "Took over the Normal-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Goldenrod Gym",
+      "Battled against Normal-type specialists"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Morty",
+    "region": "johto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Ecruteak City Gym Leader",
+    "description": "The Gym Leader of Ecruteak City who specializes in Ghost-type Pokémon. He is a mysterious trainer who uses his psychic abilities with Ghost-types.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2b/Morty_AG_anime.png/250px-Morty_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "gymBadges": ["Fog Badge"],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Mysterious Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 92,
+        "name": "Gastly",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+        "nickname": "Gengar",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Ecruteak City Gym Leader",
+        "description": "Took over the Ghost-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Ecruteak Gym",
+      "Battled against Ghost-type specialists"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Chuck",
+    "region": "johto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Cianwood City Gym Leader",
+    "description": "The Gym Leader of Cianwood City who specializes in Fighting-type Pokémon. He is a strong and proud trainer who uses his martial arts skills with his Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5f/Chuck_AG_anime.png/250px-Chuck_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+    "gymBadges": ["Storm Badge"],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Martial Arts Master"],
+    "signaturePokemon": [
+      {
+        "id": 56,
+        "name": "Mankey",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+        "nickname": "Primeape",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Cianwood City Gym Leader",
+        "description": "Took over the Fighting-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Cianwood Gym",
+      "Battled against Fighting-type specialists"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Jasmine",
+    "region": "johto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Olivine City Gym Leader",
+    "description": "The Gym Leader of Olivine City who specializes in Steel-type Pokémon. She is known for her beauty and uses Steel-type Pokémon in battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3e/Jasmine_AG_anime.png/250px-Jasmine_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+    "gymBadges": ["Mineral Badge"],
+    "championships": [],
+    "achievements": ["Steel-type Specialist", "Beauty Queen"],
+    "signaturePokemon": [
+      {
+        "id": 208,
+        "name": "Steelix",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+        "nickname": "Steelix",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Olivine City Gym Leader",
+        "description": "Took over the Steel-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Olivine Gym",
+      "Battled against Steel-type specialists"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Pryce",
+    "region": "johto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Mahogany Town Gym Leader",
+    "description": "The Gym Leader of Mahogany Town who specializes in Ice-type Pokémon. He is an elderly trainer who has been training Ice-types for many years.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/75/Pryce_AG_anime.png/250px-Pryce_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+    "gymBadges": ["Glacier Badge"],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Elderly Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 87,
+        "name": "Dewgong",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+        "nickname": "Dewgong",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Mahogany Town Gym Leader",
+        "description": "Took over the Ice-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Mahogany Gym",
+      "Battled against Ice-type specialists"
+    ]
+  }
+]

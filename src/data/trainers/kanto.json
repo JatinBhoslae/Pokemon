@@ -1,0 +1,711 @@
+[
+  {
+    "id": 1,
+    "name": "Ash Ketchum",
+    "region": "kanto",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Pallet Town who dreams of becoming a Pokémon Master. He travels with his Pikachu and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/61/Red_AG_anime.png/250px-Red_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": [
+      "Orange League Champion",
+      "Pokémon World Tournament Champion"
+    ],
+    "achievements": [
+      "Pokémon League Champion",
+      "Kalos League Champion",
+      "Alola League Champion"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "nickname": "Pikachu",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Pallet Town with Pikachu"
+      },
+      {
+        "year": "Years 1-3",
+        "position": "Gym Challenger",
+        "description": "Traveled across Kanto region to earn badges"
+      },
+      {
+        "year": "Years 3-5",
+        "position": "Elite Four Aspirant",
+        "description": "Challenged the Elite Four and Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Rocket Leaders",
+      "Won Orange League",
+      "Became Pokémon World Champion"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Misty",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Cerulean City Gym Leader",
+    "description": "The Gym Leader of Cerulean City who specializes in Water-type Pokémon. She travels with Ash and Brock to become a better trainer.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/12/Misty_AG_anime.png/250px-Misty_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+    "gymBadges": ["Cascade Badge"],
+    "championships": [],
+    "achievements": [
+      "Water-type Specialist",
+      "Top Coordinator",
+      "Pokémon Water Show Champion"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 121,
+        "name": "Starmie",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+        "nickname": "Starmie",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Cerulean City Gym Leader",
+        "description": "Took over the Gym from her sisters"
+      },
+      {
+        "year": "During journey",
+        "position": "Water-type Specialist",
+        "description": "Traveled to improve skills"
+      }
+    ],
+    "notableBattles": ["Defended Cerulean Gym", "Battled alongside Ash"]
+  },
+  {
+    "id": 3,
+    "name": "Brock",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Pewter City Gym Leader",
+    "description": "The Gym Leader of Pewter City who specializes in Rock-type Pokémon. He joins Ash as a traveling companion to become a better Pokémon Breeder.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/78/Brock_AG_anime.png/250px-Brock_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "gymBadges": ["Boulder Badge"],
+    "championships": [],
+    "achievements": [
+      "Pokémon Breeding Specialist",
+      "Rock-type Master",
+      "Top Breeding Expert"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 95,
+        "name": "Onix",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        "nickname": "Onix",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pewter City Gym Leader",
+        "description": "Managed the Rock-type Gym"
+      },
+      {
+        "year": "During journey",
+        "position": "Pokémon Breeder",
+        "description": "Learned advanced breeding techniques"
+      }
+    ],
+    "notableBattles": ["Defended Pewter Gym", "Assisted Ash in battles"]
+  },
+  {
+    "id": 4,
+    "name": "Gary Oak",
+    "region": "kanto",
+    "role": "Rival",
+    "trainerClass": "Pokémon Researcher",
+    "title": "Pokémon Researcher",
+    "description": "A Pokémon Trainer and Researcher from Pallet Town. He was Ash's rival during their early journeys but later became a Pokémon Researcher.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8f/Gary_Oak_AG_anime.png/250px-Gary_Oak_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": ["Pokémon League Champion"],
+    "achievements": [
+      "Pokémon League Champion",
+      "Top Pokémon Researcher",
+      "Pokémon Research Award"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 133,
+        "name": "Eevee",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        "nickname": "Eevee",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Early journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey as a trainer with Eevee"
+      },
+      {
+        "year": "Later years",
+        "position": "Pokémon Researcher",
+        "description": "Focused on Pokémon research and development"
+      }
+    ],
+    "notableBattles": ["Became Pokémon League Champion", "Battled against Ash"]
+  },
+  {
+    "id": 5,
+    "name": "Red",
+    "region": "kanto",
+    "role": "Pokémon Master",
+    "trainerClass": "Pokémon Master",
+    "title": "Kanto Champion",
+    "description": "The silent protagonist of the original Red/Blue games who became the Champion of the Kanto region and is considered a legendary trainer.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/61/Red_AG_anime.png/250px-Red_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": ["Kanto Champion", "Pokémon League Champion"],
+    "achievements": [
+      "Kanto Champion",
+      "Pokémon League Champion",
+      "Legendary Trainer"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 6,
+        "name": "Charizard",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "nickname": "Charizard",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Early journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Charmander"
+      },
+      {
+        "year": "After journey",
+        "position": "Pokémon Champion",
+        "description": "Defeated the Elite Four and became Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated the Elite Four",
+      "Became Pokémon Champion",
+      "Captured Legendary Birds"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Blue Oak",
+    "region": "kanto",
+    "role": "Champion",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Kanto Champion",
+    "description": "A skilled Pokémon Trainer from Pallet Town and rival of Red. He became the Champion of the Kanto region.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8f/Gary_Oak_AG_anime.png/250px-Gary_Oak_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "gymBadges": [
+      "Boulder Badge",
+      "Cascade Badge",
+      "Thunder Badge",
+      "Rainbow Badge",
+      "Soul Badge",
+      "Marsh Badge",
+      "Volcano Badge",
+      "Earth Badge"
+    ],
+    "championships": ["Kanto Champion"],
+    "achievements": ["Kanto Champion", "Pokémon League Champion"],
+    "signaturePokemon": [
+      {
+        "id": 3,
+        "name": "Venusaur",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "nickname": "Venusaur",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Early journey",
+        "position": "Pokémon Trainer",
+        "description": "Started journey with Squirtle"
+      },
+      {
+        "year": "After journey",
+        "position": "Pokémon Champion",
+        "description": "Defeated the Elite Four and became Champion"
+      }
+    ],
+    "notableBattles": ["Defeated the Elite Four", "Became Pokémon Champion"]
+  },
+  {
+    "id": 7,
+    "name": "Lt. Surge",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Vermillion City Gym Leader",
+    "description": "The Gym Leader of Vermillion City who specializes in Electric-type Pokémon. He is a former soldier who uses his military experience in battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/2a/Lt._Surge_AG_anime.png/250px-Lt._Surge_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "gymBadges": ["Thunder Badge"],
+    "championships": [],
+    "achievements": ["Electric-type Specialist", "Military Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "nickname": "Raichu",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Vermillion City Gym Leader",
+        "description": "Took over the Electric-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Vermillion Gym",
+      "Battled against Electric-type specialists"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Erika",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Celadon City Gym Leader",
+    "description": "The Gym Leader of Celadon City who specializes in Grass-type Pokémon. She is known for her beauty and uses Grass-type Pokémon in battle.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9e/Erika_AG_anime.png/250px-Erika_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "gymBadges": ["Rainbow Badge"],
+    "championships": [],
+    "achievements": ["Grass-type Specialist", "Beauty Queen"],
+    "signaturePokemon": [
+      {
+        "id": 46,
+        "name": "Parasect",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+        "nickname": "Vileplume",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Celadon City Gym Leader",
+        "description": "Managed the Grass-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Celadon Gym",
+      "Battled against Grass-type specialists"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Koga",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Fuchsia City Gym Leader",
+    "description": "The Gym Leader of Fuchsia City who specializes in Poison-type Pokémon. He is a master of poison and uses his ninja skills in battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/87/Koga_AG_anime.png/250px-Koga_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+    "gymBadges": ["Soul Badge"],
+    "championships": [],
+    "achievements": ["Poison-type Specialist", "Ninja Master"],
+    "signaturePokemon": [
+      {
+        "id": 42,
+        "name": "Golbat",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+        "nickname": "Golbat",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Fuchsia City Gym Leader",
+        "description": "Took over the Poison-type Gym from his predecessor"
+      }
+    ],
+    "notableBattles": [
+      "Defended Fuchsia Gym",
+      "Battled against Poison-type specialists"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Sabrina",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Saffron City Gym Leader",
+    "description": "The Gym Leader of Saffron City who specializes in Psychic-type Pokémon. She has psychic powers and uses them in her battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6e/Sabrina_AG_anime.png/250px-Sabrina_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "gymBadges": ["Marsh Badge"],
+    "championships": [],
+    "achievements": ["Psychic-type Specialist", "Psychic Master"],
+    "signaturePokemon": [
+      {
+        "id": 64,
+        "name": "Kadabra",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+        "nickname": "Alakazam",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Saffron City Gym Leader",
+        "description": "Took over the Psychic-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Saffron Gym",
+      "Battled against Psychic-type specialists"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Blaine",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Cinnabar Island Gym Leader",
+    "description": "The Gym Leader of Cinnabar Island who specializes in Fire-type Pokémon. He is an elderly scientist who studies Pokémon and fire types.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/86/Blaine_AG_anime.png/250px-Blaine_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "gymBadges": ["Volcano Badge"],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Pokémon Researcher"],
+    "signaturePokemon": [
+      {
+        "id": 38,
+        "name": "Ninetales",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+        "nickname": "Ninetales",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Cinnabar Island Gym Leader",
+        "description": "Managed the Fire-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Cinnabar Gym",
+      "Battled against Fire-type specialists"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Giovanni",
+    "region": "kanto",
+    "role": "Villain",
+    "trainerClass": "Team Rocket Boss",
+    "title": "Team Rocket Boss",
+    "description": "The leader of Team Rocket who specializes in Ground-type Pokémon. He is a skilled businessman and Pokémon trainer who aims to control the Pokémon world.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0c/Giovanni_AG_anime.png/250px-Giovanni_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "gymBadges": ["Earth Badge"],
+    "championships": [],
+    "achievements": ["Team Rocket Boss", "Ground-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "nickname": "Dugtrio",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Rocket Boss",
+        "description": "Led Team Rocket organization"
+      }
+    ],
+    "notableBattles": ["Defeated by Red", "Controlled Team Rocket"]
+  },
+  {
+    "id": 13,
+    "name": "Jessie",
+    "region": "kanto",
+    "role": "Villain",
+    "trainerClass": "Team Rocket Member",
+    "title": "Team Rocket Member",
+    "description": "A member of Team Rocket who uses various Pokémon in her schemes. She is accompanied by James and Meowth in their attempts to catch Pikachu.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/80/Jessie_AG_anime.png/250px-Jessie_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Rocket Member", "Clever Schemer"],
+    "signaturePokemon": [
+      {
+        "id": 102,
+        "name": "Wobbuffet",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+        "nickname": "Wobbuffet",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Rocket Member",
+        "description": "Joined Team Rocket organization"
+      }
+    ],
+    "notableBattles": ["Attempted to catch Pikachu", "Schemed against Ash"]
+  },
+  {
+    "id": 14,
+    "name": "James",
+    "region": "kanto",
+    "role": "Villain",
+    "trainerClass": "Team Rocket Member",
+    "title": "Team Rocket Member",
+    "description": "A member of Team Rocket who uses various Pokémon in his schemes. He is accompanied by Jessie and Meowth in their attempts to catch Pikachu.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/95/James_AG_anime.png/250px-James_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Rocket Member", "Clever Schemer"],
+    "signaturePokemon": [
+      {
+        "id": 163,
+        "name": "Weezing",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+        "nickname": "Weezing",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Rocket Member",
+        "description": "Joined Team Rocket organization"
+      }
+    ],
+    "notableBattles": ["Attempted to catch Pikachu", "Schemed against Ash"]
+  },
+  {
+    "id": 15,
+    "name": "Prof. Oak",
+    "region": "kanto",
+    "role": "Professor",
+    "trainerClass": "Pokémon Professor",
+    "title": "Pokémon Professor",
+    "description": "A Pokémon Professor who studies Pokémon and their relationship with humans. He gave Ash his first Pokémon and continues to research Pokémon.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8a/Professor_Oak_AG_anime.png/250px-Professor_Oak_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Pokémon Researcher", "Pokémon Professor"],
+    "signaturePokemon": [
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "nickname": "Bulbasaur",
+        "role": "Research Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Professor",
+        "description": "Started Pokémon research"
+      }
+    ],
+    "notableBattles": ["Trained many researchers", "Advanced Pokémon science"]
+  },
+  {
+    "id": 16,
+    "name": "Daisy Oak",
+    "region": "kanto",
+    "role": "Nurse",
+    "trainerClass": "Pokémon Research Assistant",
+    "title": "Research Assistant",
+    "description": "Prof. Oak's granddaughter who helps with Pokémon research and assists trainers at the lab.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9e/Daisy_Oak_AG_anime.png/250px-Daisy_Oak_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Pokémon Research Assistant", "Lab Helper"],
+    "signaturePokemon": [
+      {
+        "id": 39,
+        "name": "Jigglypuff",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "nickname": "Jigglypuff",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Research Assistant",
+        "description": "Started helping at Oak's lab"
+      }
+    ],
+    "notableBattles": ["Assisted trainers", "Helped with research"]
+  },
+  {
+    "id": 17,
+    "name": "Delia Ketchum",
+    "region": "kanto",
+    "role": "Mother",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Ash's Mother",
+    "description": "Ash Ketchum's mother who supports him in his journey to become a Pokémon Master.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6e/Delia_Ketchum_AG_anime.png/250px-Delia_Ketchum_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Supportive Mother", "Home Caretaker"],
+    "signaturePokemon": [
+      {
+        "id": 39,
+        "name": "Jigglypuff",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "nickname": "Jigglypuff",
+        "role": "Pet"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Mother",
+        "description": "Supported Ash's decision to become a trainer"
+      }
+    ],
+    "notableBattles": ["Kept Ash's Pokémon safe", "Supported Ash's journey"]
+  },
+  {
+    "id": 18,
+    "name": "Viridian Gym Leader",
+    "region": "kanto",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Viridian City Gym Leader",
+    "description": "The Gym Leader of Viridian City who specializes in Poison-type Pokémon. This gym is the final gym in the Kanto region.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0c/Giovanni_AG_anime.png/250px-Giovanni_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "gymBadges": ["Earth Badge"],
+    "championships": [],
+    "achievements": ["Poison-type Specialist", "Final Gym Leader"],
+    "signaturePokemon": [
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "nickname": "Dugtrio",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Viridian City Gym Leader",
+        "description": "Managed the final gym in Kanto"
+      }
+    ],
+    "notableBattles": ["Defended Viridian Gym", "Final gym challenge"]
+  },
+  {
+    "id": 19,
+    "name": "Elite Four Lorelei",
+    "region": "kanto",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Ice-type Pokémon. She is known for her beauty and uses her ice Pokémon to freeze her opponents.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5c/Lorelei_AG_anime.png/250px-Lorelei_AG_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 124,
+        "name": "Jynx",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+        "nickname": "Jynx",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  }
+]

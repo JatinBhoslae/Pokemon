@@ -1,0 +1,757 @@
+[
+  {
+    "id": 49,
+    "name": "Lucas",
+    "region": "sinnoh",
+    "role": "Pokémon Trainer",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Master",
+    "description": "A Pokémon Trainer from Twinleaf Town who dreams of becoming a Pokémon Master. He travels with his starter Pokémon and various friends to catch Pokémon and win battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9c/Lucas_DP_anime.png/250px-Lucas_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+    "gymBadges": [
+      "Coal Badge",
+      "Forest Badge",
+      "Cobble Badge",
+      "Fen Badge",
+      "Relic Badge",
+      "Mine Badge",
+      "Icicle Badge",
+      "Beacon Badge"
+    ],
+    "championships": ["Sinnoh League Champion"],
+    "achievements": ["Pokémon League Champion", "Master of Sinnoh"],
+    "signaturePokemon": [
+      {
+        "id": 390,
+        "name": "Chimchar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+        "nickname": "Chimchar",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Twinleaf Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Sinnoh region to earn badges"
+      },
+      {
+        "year": "Year 2",
+        "position": "Elite Four Aspirant",
+        "description": "Challenged the Elite Four and Champion"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Team Galactic",
+      "Won Sinnoh League",
+      "Caught Legendary Pokémon"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Dawn",
+    "region": "sinnoh",
+    "role": "Pokémon Coordinator",
+    "trainerClass": "Pokémon Coordinator",
+    "title": "Pokémon Coordinator",
+    "description": "A Pokémon Coordinator from Twinleaf Town who dreams of becoming a Top Coordinator. She travels with her friends to participate in Pokémon Contests and battles.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/03/Dawn_DP_anime.png/250px-Dawn_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
+    "gymBadges": [
+      "Coal Badge",
+      "Forest Badge",
+      "Cobble Badge",
+      "Fen Badge",
+      "Relic Badge",
+      "Mine Badge",
+      "Icicle Badge",
+      "Beacon Badge"
+    ],
+    "championships": ["Grand Festival Winner"],
+    "achievements": ["Top Coordinator", "Pokémon Contests Winner"],
+    "signaturePokemon": [
+      {
+        "id": 393,
+        "name": "Piplup",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
+        "nickname": "Piplup",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Coordinator",
+        "description": "Started journey from Twinleaf Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Contest Participant",
+        "description": "Traveled across Sinnoh region to participate in Contests"
+      },
+      {
+        "year": "Year 2",
+        "position": "Top Coordinator",
+        "description": "Won multiple Contests and Grand Festival"
+      }
+    ],
+    "notableBattles": [
+      "Won Grand Festival",
+      "Participated in Contests",
+      "Traveled with friends"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Barry",
+    "region": "sinnoh",
+    "role": "Rival",
+    "trainerClass": "Pokémon Trainer",
+    "title": "Pokémon Trainer",
+    "description": "A energetic Pokémon Trainer from Twinleaf Town and the rival of Lucas. He is known for his competitive spirit and determination.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3d/Barry_DP_anime.png/250px-Barry_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+    "gymBadges": [
+      "Coal Badge",
+      "Forest Badge",
+      "Cobble Badge",
+      "Fen Badge",
+      "Relic Badge",
+      "Mine Badge",
+      "Icicle Badge",
+      "Beacon Badge"
+    ],
+    "championships": [],
+    "achievements": ["Competitive Trainer", "Lucas's Rival"],
+    "signaturePokemon": [
+      {
+        "id": 390,
+        "name": "Chimchar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+        "nickname": "Infernape",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Year 1",
+        "position": "Pokémon Trainer",
+        "description": "Started journey from Twinleaf Town"
+      },
+      {
+        "year": "Years 1-2",
+        "position": "Gym Challenger",
+        "description": "Traveled across Sinnoh region to earn badges"
+      }
+    ],
+    "notableBattles": [
+      "Battled against Lucas",
+      "Defeated Gym Leaders",
+      "Competed in battles"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Roark",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Oreburgh City Gym Leader",
+    "description": "The Gym Leader of Oreburgh City who specializes in Rock-type Pokémon. He is also a miner who works in the local mines.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8c/Roark_DP_anime.png/250px-Roark_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "gymBadges": ["Coal Badge"],
+    "championships": [],
+    "achievements": ["Rock-type Specialist", "Miner"],
+    "signaturePokemon": [
+      {
+        "id": 74,
+        "name": "Geodude",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+        "nickname": "Onix",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Oreburgh City Gym Leader",
+        "description": "Took over the Rock-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Oreburgh Gym",
+      "Battled against Rock-type specialists"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Gardenia",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Eterna City Gym Leader",
+    "description": "The Gym Leader of Eterna City who specializes in Grass-type Pokémon. She is also a florist who runs a flower shop.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3c/Gardenia_DP_anime.png/250px-Gardenia_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
+    "gymBadges": ["Forest Badge"],
+    "championships": [],
+    "achievements": ["Grass-type Specialist", "Florist"],
+    "signaturePokemon": [
+      {
+        "id": 465,
+        "name": "Tangrowth",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
+        "nickname": "Tangrowth",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Eterna City Gym Leader",
+        "description": "Took over the Grass-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Eterna Gym",
+      "Battled against Grass-type specialists"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Maylene",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Hearthome City Gym Leader",
+    "description": "The Gym Leader of Hearthome City who specializes in Fighting-type Pokémon. She is a young and shy trainer who practices martial arts.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/a/a2/Maylene_DP_anime.png/250px-Maylene_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+    "gymBadges": ["Cobble Badge"],
+    "championships": [],
+    "achievements": ["Fighting-type Specialist", "Martial Artist"],
+    "signaturePokemon": [
+      {
+        "id": 453,
+        "name": "Croagunk",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+        "nickname": "Machoke",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Hearthome City Gym Leader",
+        "description": "Took over the Fighting-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Hearthome Gym",
+      "Battled against Fighting-type specialists"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Wake",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Pastoria City Gym Leader",
+    "description": "The Gym Leader of Pastoria City who specializes in Water-type Pokémon. He is a fisherman who loves to catch Pokémon and fish.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/0/0a/Wake_DP_anime.png/250px-Wake_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
+    "gymBadges": ["Fen Badge"],
+    "championships": [],
+    "achievements": ["Water-type Specialist", "Fisherman"],
+    "signaturePokemon": [
+      {
+        "id": 195,
+        "name": "Quagsire",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
+        "nickname": "Floatzel",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pastoria City Gym Leader",
+        "description": "Took over the Water-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Pastoria Gym",
+      "Battled against Water-type specialists"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Fantina",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Veilstone City Gym Leader",
+    "description": "The Gym Leader of Veilstone City who specializes in Ghost-type Pokémon. She is a mysterious and elegant trainer who uses her Ghost-types with grace.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/9c/Fantina_DP_anime.png/250px-Fantina_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+    "gymBadges": ["Relic Badge"],
+    "championships": [],
+    "achievements": ["Ghost-type Specialist", "Elegant Trainer"],
+    "signaturePokemon": [
+      {
+        "id": 442,
+        "name": "Spiritomb",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+        "nickname": "Mismagius",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Veilstone City Gym Leader",
+        "description": "Took over the Ghost-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Veilstone Gym",
+      "Battled against Ghost-type specialists"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Byron",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Canalave City Gym Leader",
+    "description": "The Gym Leader of Canalave City who specializes in Steel-type Pokémon. He is a skilled blacksmith who forges Pokémon equipment.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6f/Byron_DP_anime.png/250px-Byron_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+    "gymBadges": ["Mine Badge"],
+    "championships": [],
+    "achievements": ["Steel-type Specialist", "Blacksmith"],
+    "signaturePokemon": [
+      {
+        "id": 208,
+        "name": "Steelix",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+        "nickname": "Bastiodon",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Canalave City Gym Leader",
+        "description": "Took over the Steel-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Canalave Gym",
+      "Battled against Steel-type specialists"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Candice",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Snowpoint City Gym Leader",
+    "description": "The Gym Leader of Snowpoint City who specializes in Ice-type Pokémon. She is a strong and energetic trainer who loves cold climates.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/2/29/Candice_DP_anime.png/250px-Candice_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
+    "gymBadges": ["Icicle Badge"],
+    "championships": [],
+    "achievements": ["Ice-type Specialist", "Cold Climate Enthusiast"],
+    "signaturePokemon": [
+      {
+        "id": 460,
+        "name": "Abomasnow",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
+        "nickname": "Weavile",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Snowpoint City Gym Leader",
+        "description": "Took over the Ice-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Snowpoint Gym",
+      "Battled against Ice-type specialists"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Volkner",
+    "region": "sinnoh",
+    "role": "Gym Leader",
+    "trainerClass": "Gym Leader",
+    "title": "Sunyshore City Gym Leader",
+    "description": "The Gym Leader of Sunyshore City who specializes in Electric-type Pokémon. He is an energetic trainer who generates power for the city.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/9/95/Volkner_DP_anime.png/250px-Volkner_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+    "gymBadges": ["Beacon Badge"],
+    "championships": [],
+    "achievements": ["Electric-type Specialist", "Power Generator"],
+    "signaturePokemon": [
+      {
+        "id": 466,
+        "name": "Electivire",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+        "nickname": "Raichu",
+        "role": "Gym Leader Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Sunyshore City Gym Leader",
+        "description": "Took over the Electric-type Gym"
+      }
+    ],
+    "notableBattles": [
+      "Defended Sunyshore Gym",
+      "Battled against Electric-type specialists"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Cyrus",
+    "region": "sinnoh",
+    "role": "Villain",
+    "trainerClass": "Team Galactic Boss",
+    "title": "Team Galactic Boss",
+    "description": "The leader of Team Galactic who aims to create a new world using the power of Dialga and Palkia. He is a calm and calculating villain.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/3/3c/Cyrus_DP_anime.png/250px-Cyrus_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Galactic Boss", "World Creator"],
+    "signaturePokemon": [
+      {
+        "id": 483,
+        "name": "Dialga",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+        "nickname": "Dialga",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Galactic Boss",
+        "description": "Started Team Galactic organization"
+      }
+    ],
+    "notableBattles": [
+      "Controlled Dialga",
+      "Attempted to create new world",
+      "Defeated by heroes"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Jupiter",
+    "region": "sinnoh",
+    "role": "Villain",
+    "trainerClass": "Team Galactic Admin",
+    "title": "Team Galactic Admin",
+    "description": "A member of Team Galactic's administration who uses Poison-type Pokémon. She is known for her elegance and cunning tactics.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5d/Jupiter_DP_anime.png/250px-Jupiter_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Galactic Admin", "Poison-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 452,
+        "name": "Drapion",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+        "nickname": "Toxicroak",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Galactic Admin",
+        "description": "Joined Team Galactic organization"
+      }
+    ],
+    "notableBattles": [
+      "Schemed for Team Galactic",
+      "Used Poison-types in battles"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Saturn",
+    "region": "sinnoh",
+    "role": "Villain",
+    "trainerClass": "Team Galactic Admin",
+    "title": "Team Galactic Admin",
+    "description": "A member of Team Galactic's administration who uses Dark-type Pokémon. He is known for his loyalty to Cyrus and his strategic mind.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/5/5e/Saturn_DP_anime.png/250px-Saturn_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Galactic Admin", "Dark-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 434,
+        "name": "Stunky",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
+        "nickname": "Skuntank",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Galactic Admin",
+        "description": "Joined Team Galactic organization"
+      }
+    ],
+    "notableBattles": [
+      "Schemed for Team Galactic",
+      "Used Dark-types in battles"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Mars",
+    "region": "sinnoh",
+    "role": "Villain",
+    "trainerClass": "Team Galactic Admin",
+    "title": "Team Galactic Admin",
+    "description": "A member of Team Galactic's administration who uses Psychic-type Pokémon. She is known for her ambition and strategic abilities.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/16/Mars_DP_anime.png/250px-Mars_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Team Galactic Admin", "Psychic-type Specialist"],
+    "signaturePokemon": [
+      {
+        "id": 436,
+        "name": "Bronzor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+        "nickname": "Bronzong",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Team Galactic Admin",
+        "description": "Joined Team Galactic organization"
+      }
+    ],
+    "notableBattles": [
+      "Schemed for Team Galactic",
+      "Used Psychic-types in battles"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Cynthia",
+    "region": "sinnoh",
+    "role": "Champion",
+    "trainerClass": "Pokémon Champion",
+    "title": "Sinnoh Champion",
+    "description": "The Champion of the Sinnoh region who specializes in Normal-type Pokémon. She is also a skilled researcher who studies Pokémon history and legends.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/1/1a/Cynthia_DP_anime.png/250px-Cynthia_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+    "gymBadges": [
+      "Coal Badge",
+      "Forest Badge",
+      "Cobble Badge",
+      "Fen Badge",
+      "Relic Badge",
+      "Mine Badge",
+      "Icicle Badge",
+      "Beacon Badge"
+    ],
+    "championships": ["Sinnoh Champion"],
+    "achievements": [
+      "Sinnoh Champion",
+      "Pokémon Researcher",
+      "Legendary Pokémon Expert"
+    ],
+    "signaturePokemon": [
+      {
+        "id": 448,
+        "name": "Lucario",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+        "nickname": "Garchomp",
+        "role": "Partner"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Pokémon Researcher",
+        "description": "Started researching Pokémon"
+      },
+      {
+        "year": "After",
+        "position": "Pokémon Champion",
+        "description": "Became Champion of Sinnoh region"
+      }
+    ],
+    "notableBattles": [
+      "Defeated Elite Four",
+      "Became Pokémon Champion",
+      "Studied legendary Pokémon"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Aaron",
+    "region": "sinnoh",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Bug-type Pokémon. He is a skilled trainer who uses his Bug-types with precision.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/7c/Aaron_DP_anime.png/250px-Aaron_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Bug-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 416,
+        "name": "Vespiquen",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
+        "nickname": "Scizor",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Bertha",
+    "region": "sinnoh",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Ground-type Pokémon. She is an elderly and experienced trainer who uses her Ground-types with wisdom.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/6/6d/Bertha_DP_anime.png/250px-Bertha_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Ground-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 326,
+        "name": "Gligar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
+        "nickname": "Gliscor",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Flint",
+    "region": "sinnoh",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Fire-type Pokémon. He is a skilled trainer who uses his Fire-types with intensity.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/7/73/Flint_DP_anime.png/250px-Flint_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Fire-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 467,
+        "name": "Magmortar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+        "nickname": "Rapidash",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Lucian",
+    "region": "sinnoh",
+    "role": "Elite Four",
+    "trainerClass": "Elite Four",
+    "title": "Elite Four Member",
+    "description": "A member of the Elite Four who specializes in Psychic-type Pokémon. He is a skilled trainer who uses his Psychic-types with precision.",
+    "trainerPhoto": "https://cdn2.bulbagarden.net/upload/thumb/8/8f/Lucian_DP_anime.png/250px-Lucian_DP_anime.png",
+    "trainerSprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
+    "gymBadges": [],
+    "championships": [],
+    "achievements": ["Psychic-type Specialist", "Elite Four Member"],
+    "signaturePokemon": [
+      {
+        "id": 480,
+        "name": "Uxie",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
+        "nickname": "Espeon",
+        "role": "Elite Four Pokémon"
+      }
+    ],
+    "careerHistory": [
+      {
+        "year": "Before journey",
+        "position": "Elite Four Member",
+        "description": "Joined the Elite Four"
+      }
+    ],
+    "notableBattles": [
+      "Defended Elite Four",
+      "Challenged Pokémon League Champions"
+    ]
+  }
+]

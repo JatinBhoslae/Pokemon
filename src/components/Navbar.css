@@ -1,0 +1,124 @@
+.navbar {
+  background: #020d35; /* Dark blue to match existing theme elements */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 120rem;
+  padding: 0 2.4rem;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1.5rem;
+  height: 100%;
+  font-weight: 600;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+
+.nav-links:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #e91e63; /* Pink accent */
+}
+
+.nav-links.activated {
+  border-bottom: 4px solid #e91e63;
+  color: #e91e63;
+}
+
+.menu-icon {
+  display: none;
+  color: #fff;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #020d35;
+    padding-bottom: 2rem;
+  }
+
+  .nav-menu.active {
+    background: #020d35;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #1888ff;
+    border-radius: 0;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 2.8rem;
+    cursor: pointer;
+  }
+}
