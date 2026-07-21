@@ -3,6 +3,7 @@ import "../index.css";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 import TrainerModal from "../components/TrainerModal";
 import TrainerSidebar from "../components/TrainerSidebar";
+import FallbackImage from "../components/FallbackImage";
 
 const Trainers = () => {
   const [trainers, setTrainers] = useState([]);
@@ -72,7 +73,7 @@ const Trainers = () => {
         ]);
 
         // Combine all data
-        const allTrainers = [
+        const rawTrainers = [
           ...kantoData,
           ...johtoData,
           ...hoennData,
@@ -86,6 +87,15 @@ const Trainers = () => {
           ...rivalsData,
           ...villainsData,
         ];
+
+        // Deduplicate trainers by name (removes duplicates that appear in both region & role lists)
+        const uniqueTrainersMap = new Map();
+        rawTrainers.forEach(trainer => {
+          if (!uniqueTrainersMap.has(trainer.name)) {
+            uniqueTrainersMap.set(trainer.name, trainer);
+          }
+        });
+        const allTrainers = Array.from(uniqueTrainersMap.values());
 
         setTrainers(allTrainers);
         setLoading(false);
@@ -209,12 +219,14 @@ const Trainers = () => {
                   <FaExpandArrowsAlt />
                 </div>
                 <figure>
-                  <img
+                  <FallbackImage
                     src={
                       trainer.trainerPhoto ||
                       trainer.trainerSprite ||
                       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                     }
+                    query={trainer.name}
+                    defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                     alt={trainer.name}
                     style={{
                       width: "150px",

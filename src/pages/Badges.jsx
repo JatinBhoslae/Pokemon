@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 import BadgeSidebar from "../components/BadgeSidebar";
 import BadgeModal from "../components/BadgeModal";
+import FallbackImage from "../components/FallbackImage";
 
 const Badges = () => {
   const [badges, setBadges] = useState([]);
@@ -118,11 +119,13 @@ const Badges = () => {
                   <FaExpandArrowsAlt />
                 </div>
                 <figure>
-                  <img
+                  <FallbackImage
                     src={
                       badge.imageUrl ||
                       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                     }
+                    query={badge.name}
+                    defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                     alt={badge.name}
                     style={{
                       width: "150px",

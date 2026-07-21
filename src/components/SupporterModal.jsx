@@ -1,5 +1,6 @@
 import React from "react";
 import "./PokemonModal.css";
+import FallbackImage from "./FallbackImage";
 
 const SupporterModal = ({ supporter, onClose }) => {
   const handleOverlayClick = (e) => {
@@ -19,8 +20,10 @@ const SupporterModal = ({ supporter, onClose }) => {
 
         <div className="modal-header">
           <div className="image-container">
-            <img
+            <FallbackImage
               src={supporter.images?.large || supporter.images?.small || "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/professors-mask.png"}
+              query={supporter.name}
+              defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/professors-mask.png"
               alt={supporter.name}
               className="modal-image"
             />

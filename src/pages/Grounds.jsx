@@ -3,6 +3,7 @@ import "../index.css";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 import GroundModal from "../components/GroundModal";
 import GroundSidebar from "../components/GroundSidebar";
+import FallbackImage from "../components/FallbackImage";
 
 const Grounds = () => {
   const [grounds, setGrounds] = useState([]);
@@ -120,11 +121,13 @@ const Grounds = () => {
                   <FaExpandArrowsAlt />
                 </div>
                 <figure>
-                  <img
+                  <FallbackImage
                     src={
                       ground.image ||
                       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                     }
+                    query={ground.name}
+                    defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                     alt={ground.name}
                     style={{
                       width: "150px",

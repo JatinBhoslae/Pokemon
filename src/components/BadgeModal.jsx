@@ -1,5 +1,6 @@
 import React from "react";
 import "./PokemonModal.css";
+import FallbackImage from "./FallbackImage";
 
 const BadgeModal = ({ badge, onClose }) => {
   const handleOverlayClick = (e) => {
@@ -19,8 +20,10 @@ const BadgeModal = ({ badge, onClose }) => {
 
         <div className="modal-header">
           <div className="image-container">
-            <img
+            <FallbackImage
               src={badge.imageUrl}
+              query={badge.name}
+              defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
               alt={badge.name}
               className="modal-image"
             />

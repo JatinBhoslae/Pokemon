@@ -1,5 +1,6 @@
 import React from "react";
 import "./GroundModal.css";
+import FallbackImage from "./FallbackImage";
 
 const GroundModal = ({ ground, onClose }) => {
   const handleOverlayClick = (e) => {
@@ -37,11 +38,13 @@ const GroundModal = ({ ground, onClose }) => {
 
         <div className="modal-header">
           <div className="image-container">
-            <img
+            <FallbackImage
               src={
                 ground.image ||
                 "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
               }
+              query={ground.name}
+              defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
               alt={ground.name}
               className="modal-image"
               style={{ width: "200px", height: "200px", objectFit: "contain" }}

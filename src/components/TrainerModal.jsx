@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./PokemonModal.css";
 import "./TrainerModal.css";
+import FallbackImage from "./FallbackImage";
 
 export default function TrainerModal({ trainer, onClose }) {
   const [detailedTrainer, setDetailedTrainer] = useState(null);
@@ -48,12 +49,14 @@ export default function TrainerModal({ trainer, onClose }) {
 
         <div className="modal-header">
           <div className="image-container">
-            <img
+            <FallbackImage
               src={
                 detailedTrainer.trainerPhoto ||
                 detailedTrainer.trainerSprite ||
                 "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
               }
+              query={detailedTrainer.name}
+              defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
               alt={detailedTrainer.name}
               className="modal-image"
               style={{ width: "200px", height: "200px", objectFit: "contain" }}
@@ -146,8 +149,10 @@ export default function TrainerModal({ trainer, onClose }) {
           <div className="pokemon-caught-grid">
             {(detailedTrainer.signaturePokemon || []).map((pokemon) => (
               <div key={pokemon.id} className="pokemon-caught-item">
-                <img
+                <FallbackImage
                   src={pokemon.sprite}
+                  query={pokemon.name}
+                  defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                   alt={pokemon.name}
                   title={`${pokemon.name} (${
                     pokemon.nickname || pokemon.name

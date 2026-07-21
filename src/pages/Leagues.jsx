@@ -1,5 +1,5 @@
-import React from "react";
 import "../index.css";
+import FallbackImage from "../components/FallbackImage";
 
 const leagues = [
   { id: 1, name: "Indigo League", region: "Kanto", image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/town-map.png" },
@@ -19,8 +19,10 @@ export default function Leagues() {
           <li key={league.id} className="pokemon-card">
             <span className="pokemon-id">#{String(league.id).padStart(3, "0")}</span>
             <figure>
-              <img
+              <FallbackImage
                 src={league.image}
+                query={league.name}
+                defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
                 alt={league.name}
                 style={{ width: "100px", height: "100px", objectFit: "contain" }}
               />

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../index.css";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 import SupporterModal from "../components/SupporterModal";
+import FallbackImage from "../components/FallbackImage";
 
 export default function Supporters() {
   const [supporters, setSupporters] = useState([]);
@@ -84,8 +85,10 @@ export default function Supporters() {
                   <FaExpandArrowsAlt />
                 </div>
                 <figure>
-                  <img
+                  <FallbackImage
                     src={card.images?.small || "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/professors-mask.png"}
+                    query={card.name}
+                    defaultFallback="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/professors-mask.png"
                     alt={card.name}
                     style={{
                       width: "150px",

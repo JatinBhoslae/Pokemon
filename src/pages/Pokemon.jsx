@@ -5,6 +5,7 @@ import PokemonThumbnail from "../components/PokemonThumbnail";
 import PokemonModal from "../components/PokemonModal";
 import Sidebar from "../components/Sidebar";
 import SearchBar from "../components/SearchBar";
+import { queuedFetch } from "../utils/fetchQueue";
 
 export default function Pokemon() {
   const [pokemonList, setPokemonList] = useState([]);
@@ -28,8 +29,7 @@ export default function Pokemon() {
 
       const detailedData = await Promise.all(
         data.results.map(async (curPokemon) => {
-          const res = await fetch(curPokemon.url);
-          return await res.json();
+          return await queuedFetch(curPokemon.url);
         })
       );
 
