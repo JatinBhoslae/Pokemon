@@ -1,6 +1,8 @@
 # Pokémon Lover Hub ⚡
 
-A comprehensive React application dedicated to the Pokémon universe! This app lets you explore Pokémon generations, discover trainers across regions, and dive into the details of badges, battle grounds, and leagues. 
+A comprehensive React application dedicated to the Pokémon universe! This app lets you explore Pokémon generations, discover trainers across regions, and dive into the details of badges, battle grounds, and leagues.
+
+**🔗 Live Demo:** [https://pokemon-nine-snowy.vercel.app/](https://pokemon-nine-snowy.vercel.app/)
 
 ## 🌟 Features
 
