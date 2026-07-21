@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
 import PokemonCard from "../components/PokemonCard";
-import PokemonThumbnail from "../components/PokemonThumbnail";
 import PokemonModal from "../components/PokemonModal";
 import Sidebar from "../components/Sidebar";
-import SearchBar from "../components/SearchBar";
-import { queuedFetch } from "../utils/fetchQueue";
+import { useQuery } from "@tanstack/react-query";
+import { useInView } from "react-intersection-observer";
+import { usePokemonStore } from "../store/usePokemonStore";
 
 export default function Pokemon() {
-  const [pokemonList, setPokemonList] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
   const [search, setSearch] = useState("");
   const [selectedPokemon, setSelectedPokemon] = useState(null);
   const [selectedGen, setSelectedGen] = useState({
@@ -20,35 +17,40 @@ export default function Pokemon() {
     offset: 0,
   });
 
-  const fetchApi = async () => {
-    setLoading(true);
-    try {
+  const [visibleCount, setVisibleCount] = useState(20);
+  const { ref, inView } = useInView();
+  const favoritePokemon = usePokemonStore((state) => state.favoritePokemon);
+
+  // Reset visible count when gen or search changes
+  useEffect(() => {
+    setVisibleCount(20);
+  }, [selectedGen, search]);
+
+  // Load next page when reaching bottom
+  useEffect(() => {
+    if (inView) {
+      setVisibleCount((prev) => prev + 20);
+    }
+  }, [inView]);
+
+  const { data: rawList = [], isLoading, error } = useQuery({
+    queryKey: ["pokemonList", selectedGen.id, selectedGen.limit, selectedGen.offset],
+    queryFn: async () => {
       const API = `https://pokeapi.co/api/v2/pokemon?limit=${selectedGen.limit}&offset=${selectedGen.offset}`;
       const res = await fetch(API);
       const data = await res.json();
+      return data.results; // array of { name, url }
+    },
+    enabled: selectedGen.id !== "favorites",
+  });
 
-      const detailedData = await Promise.all(
-        data.results.map(async (curPokemon) => {
-          return await queuedFetch(curPokemon.url);
-        })
-      );
+  const pokemonList = selectedGen.id === "favorites" ? favoritePokemon : rawList;
 
-      setPokemonList(detailedData);
-      setLoading(false);
-    } catch (error) {
-      console.log(error);
-      setError(error);
-      setLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    fetchApi();
-  }, [selectedGen]);
-
-  const SearchData = pokemonList.filter((curPokemon) =>
+  const filteredData = pokemonList.filter((curPokemon) =>
     curPokemon.name.toLowerCase().includes(search.toLowerCase())
   );
+
+  const visibleData = filteredData.slice(0, visibleCount);
 
   return (
     <section className="container">
@@ -61,7 +63,7 @@ export default function Pokemon() {
           onSelectGen={setSelectedGen} 
         />
         <div className="content-area">
-          {loading ? (
+          {isLoading && selectedGen.id !== "favorites" ? (
             <div className="loading">Loading {selectedGen.name}...</div>
           ) : error ? (
             <div className="error-msg">{error.message}</div>
@@ -72,21 +74,30 @@ export default function Pokemon() {
                   type="text"
                   placeholder="Search Pokémon"
                   value={search}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  // Note: standard search local state
                   onChange={(e) => setSearch(e.target.value)}
                 />
               </div>
               <ul className="cards">
-                {SearchData.map((pokemon) => (
+                {visibleData.map((pokemon) => (
                   <PokemonCard
-                    key={pokemon.id}
-                    pokemon={pokemon}
+                    key={pokemon.name}
+                    pokemonUrl={pokemon.url}
+                    pokemonName={pokemon.name}
                     onSelect={setSelectedPokemon}
                   />
                 ))}
               </ul>
-              {SearchData.length === 0 && !loading && (
+              {/* Load more sentinel */}
+              {visibleCount < filteredData.length && (
+                <div ref={ref} className="loading-more" style={{ height: "40px", margin: "20px 0", textAlign: "center" }}>
+                  Loading more Pokémon...
+                </div>
+              )}
+              {filteredData.length === 0 && (
                 <div className="no-results">
-                  {search ? "No Pokémon found matching your search." : "No Pokémon found for the selected generation."}
+                  {search ? "No Pokémon found matching your search." : "No Pokémon found."}
                 </div>
               )}
             </>

@@ -1,12 +1,17 @@
 import React, { useEffect, useState } from "react";
 import "./PokemonModal.css";
 import { MdCatchingPokemon } from "react-icons/md";
+import { FaHeart, FaRegHeart } from "react-icons/fa";
+import { usePokemonStore } from "../store/usePokemonStore";
 
 export default function PokemonModal({ pokemon, onClose }) {
   const [description, setDescription] = useState("");
   const [loading, setLoading] = useState(true);
   const [isAttacking, setIsAttacking] = useState(false);
   const [attackType, setAttackType] = useState("");
+
+  const { toggleFavorite, isFavorite } = usePokemonStore();
+  const fav = isFavorite(pokemon.name);
 
   useEffect(() => {
     const fetchDescription = async () => {
@@ -113,6 +118,25 @@ export default function PokemonModal({ pokemon, onClose }) {
   return (
     <div className="modal-overlay" onClick={handleOverlayClick}>
       <div className="modal-content">
+        <button 
+          onClick={() => toggleFavorite({ name: pokemon.name, url: `https://pokeapi.co/api/v2/pokemon/${pokemon.id}/` })}
+          style={{
+            position: "absolute",
+            top: "10px",
+            right: "50px",
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            fontSize: "1.8rem",
+            color: fav ? "#e74c3c" : "#bdc3c7",
+            padding: "5px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          {fav ? <FaHeart /> : <FaRegHeart />}
+        </button>
         <button className="close-btn" onClick={onClose}>
           &times;
         </button>

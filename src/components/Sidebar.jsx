@@ -12,6 +12,7 @@ const generations = [
   { id: 7, name: "Gen 7", limit: 88, offset: 721 },
   { id: 8, name: "Gen 8", limit: 96, offset: 809 },
   { id: 9, name: "Gen 9", limit: 120, offset: 905 },
+  { id: "favorites", name: "Favorites", limit: 0, offset: 0 },
 ];
 
 export default function Sidebar({ selectedGenId, onSelectGen }) {
