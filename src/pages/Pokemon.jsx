@@ -74,8 +74,6 @@ export default function Pokemon() {
                   type="text"
                   placeholder="Search Pokémon"
                   value={search}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  // Note: standard search local state
                   onChange={(e) => setSearch(e.target.value)}
                 />
               </div>
